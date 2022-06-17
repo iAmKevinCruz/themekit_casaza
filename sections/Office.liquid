@@ -1,0 +1,50 @@
+<div class="ProductList ProductList--grid ProductList--removeMargin Grid image-with-text-block-collection">
+  {%- for block in section.blocks -%}
+  <div class="Grid__Cell 1/0--phone 1/2--tablet 1/4--lap-and-up">
+    <div class="collection-block">
+      <a href="{{block.settings.link}}">
+        <img src="{{block.settings.img | img_url:''}}">
+      	<p>{{block.settings.text}}</p>
+        <svg class="collection-arrow Icon Icon--select-arrow-right" role="presentation" viewBox="0 0 11 18">
+      <path d="M1.5 1.5l8 7.5-8 7.5" stroke-width="2" stroke="currentColor" fill="none" fill-rule="evenodd" stroke-linecap="square"></path>
+    </svg> 
+      </a>
+    </div>
+  </div>
+  {%- endfor -%}
+</div>
+{% schema %}
+  {
+    "name": "image-with-text-block",
+    "settings": [],
+  "blocks": [
+    {
+      "type": "text",
+      "name": "text",
+      "settings": [
+		{
+			"type":"image_picker",
+			"id":"img",
+			"label":"Add image"
+		},
+		{
+			"type":"text",
+			"id":"text",
+			"label":"Add text"
+		},
+		{
+			"type":"url",
+			"id":"link",
+			"label":"Add link"
+		}
+      ]
+    }
+  ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

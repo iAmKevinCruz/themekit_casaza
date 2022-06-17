@@ -1,0 +1,360 @@
+/* /*********************** Custom CSS for Boost Filter & Search  ************************/
+{% assign breakpointMobile = '1007px' %}
+{% assign breakpointDesktop = '1008px' %}
+{% assign searchBoxMobileHeight = '64px' %}
+
+/**************************** Place your custom css below  ****************************/
+.boost-pfs-filter-tree-h {
+/* 	margin-top: 40px;
+	text-align: center; */
+}
+
+.boost-pfs-filter-tree-h .boost-pfs-filter-option .boost-pfs-filter-option-content {
+	text-align: left;
+}
+
+/*.PageTransition {
+	display: none!important;
+}*/
+.boost-pfs-filter-selection-wrapper {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 95%;
+}
+
+@media (max-width: {{breakpointMobile}}) {
+	.boost-pfs-filter-tree-v .boost-pfs-filter-option .boost-pfs-filter-option-title .boost-pfs-filter-option-title-heading > span:before {
+		border: none;
+		content: "-";
+		font-size: 40px;
+		position: absolute;
+		right: 6px;
+		top: -4px;
+	}
+
+	.boost-pfs-filter-tree-v .boost-pfs-filter-option.boost-pfs-filter-option-collapsed .boost-pfs-filter-option-title .boost-pfs-filter-option-title-heading > span:before {
+		content: "+";
+		right: 6px;
+		top: 0;
+		font-size: 25px;
+	}
+
+	.boost-pfs-filter-tree-v .boost-pfs-filter-option .boost-pfs-filter-option-title .boost-pfs-filter-option-title-heading {
+		color: #5c5c5c;
+		font-size: 15px;
+		font-weight: normal;
+		text-transform: capitalize;
+	}
+
+	.boost-pfs-filter-tree-v .boost-pfs-filter-option .boost-pfs-filter-option-title {
+		position: relative;
+	}
+
+	.boost-pfs-filter-tree-v .boost-pfs-filter-option {
+/* 		padding-left: 25px;
+		padding-right: 25px; */
+	}
+
+	.boost-pfs-filter-tree-v {
+		display: block !important;
+		padding-top: 20px;
+	}
+
+	.boost-pfs-filter-tree-v .boost-pfs-filter-selection-wrapper {
+		padding-left: 25px;
+		padding-right: 25px;
+	}
+
+	.boost-pfs-filter-tree-v .boost-pfs-filter-option .boost-pfs-filter-option-title .boost-pfs-filter-clear {
+		margin-right: 25px;
+	}
+
+	.boost-pfs-filter-products .ProductItem {
+		visibility: inherit !important;
+	}
+}
+.boost-pfs-filter-products.ProductList--grid .ProductItem {
+	visibility: visible !important;
+}
+
+/* Search style */
+.boost-pfs-search-box {
+	box-shadow: none !important;
+}
+
+@media (max-width: {{breakpointMobile}}) {
+	.boost-pfs-search-suggestion-wrapper, .boost-pfs-search-suggestion {
+		left: 0px !important;
+		width: 100vw !important;
+	}
+}
+/* Filter mobile style */
+@media (max-width: {{breakpointMobile}}) {
+	.boost-pfs-filter-tree-v {
+		display: block !important;
+		width: auto !important;
+	}
+}
+/**** Custom Search result toolbar ****/
+.boost-pfs-search-result-toolbar {
+	display: flex;
+	align-items: center;
+	margin: 35px 0;
+	border-top: 1px solid #cfcfcf;
+	border-bottom: 1px solid #cfcfcf;
+	white-space: nowrap;
+}
+.boost-pfs-search-result-toolbar .boost-pfs-search-result-item:first-child {
+	flex: auto;
+}
+.boost-pfs-search-result-toolbar .boost-pfs-search-result-panel-controls {
+	padding: 13px 0;
+	margin: 0;
+}
+@media (max-width: {{breakpointMobile}}) {
+	.boost-pfs-search-result-toolbar .boost-pfs-search-totlal-result {
+		display: none;
+	}
+}
+
+.boost-pfs-search-result-wrap {
+	margin-top: 50px;
+}
+.boost-pfs-search-result-wrap .boost-pfs-search-result-list-item {
+	border-color: #cfcfcf;
+}
+.boost-pfs-filter-tree-v .boost-pfs-filter-refine-by, .boost-pfs-filter-refine-by-wrapper-v .boost-pfs-filter-refine-by {
+	padding-left: 25px;
+	padding-right: 25px;
+}
+.boost-pfs-filter-tree-h .boost-pfs-filter-refine-by-wrapper {
+	padding-left: 15px;
+}
+
+@media (max-width: {{breakpointMobile}}) {
+  .Drawer_Footer {
+    position: absolute;
+    bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    left: 0;
+    right: 0;
+  }
+} */
+
+@media (max-width: {{breakpointMobile}}) {
+	#boost-pfs-filter-products .ProductItem {
+		visibility: inherit !important;
+	}
+}
+.boost-pfs-filter-option .boost-pfs-filter-option-title .boost-pfs-filter-clear {
+	margin-right: 25px;
+}
+
+.boost-pfs-filter-tree-v .boost-pfs-filter-option .boost-pfs-filter-option-title .boost-pfs-filter-option-title-heading > span:before {
+	border: none;
+	content: "-";
+	font-size: 40px;
+	position: absolute;
+	right: 6px;
+	top: -4px;
+}
+
+.boost-pfs-filter-tree-v .boost-pfs-filter-option.boost-pfs-filter-option-collapsed .boost-pfs-filter-option-title .boost-pfs-filter-option-title-heading > span:before {
+	content: "+";
+	right: 6px;
+	top: 0;
+	font-size: 25px;
+}
+
+.boost-pfs-filter-tree-v .boost-pfs-filter-option .boost-pfs-filter-option-title .boost-pfs-filter-option-title-heading {
+	color: #5c5c5c;
+	font-size: 15px;
+	font-weight: normal;
+	text-transform: capitalize;
+}
+
+.boost-pfs-filter-option .boost-pfs-filter-option-title {
+	position: relative;
+}
+
+.boost-pfs-filter-option .boost-pfs-filter-option-content {
+	color: #939393;
+}
+
+.boost-pfs-filter-products.ProductList--grid .ProductItem {
+	visibility: visible !important;
+}
+
+#boost-pfs-filter-tree {
+	margin: 20px;
+}
+
+/* Search style */
+.boost-pfs-search-box {
+	box-shadow: none !important;
+}
+
+@media (max-width: {{breakpointMobile}}) {
+	.boost-pfs-search-suggestion-wrapper, .boost-pfs-search-suggestion {
+		left: 0px !important;
+		width: 100vw !important;
+	}
+}
+/* Filter mobile style */
+@media (max-width: {{breakpointMobile}}) {
+	.boost-pfs-filter-tree-v {
+		display: block !important;
+		width: auto !important;
+	}
+}
+/**** Custom Search result toolbar ****/
+.boost-pfs-search-result-toolbar {
+	display: flex;
+	align-items: center;
+	margin: 35px 0;
+	border-top: 1px solid #cfcfcf;
+	border-bottom: 1px solid #cfcfcf;
+	white-space: nowrap;
+}
+.boost-pfs-search-result-toolbar .boost-pfs-search-result-item:first-child {
+	flex: auto;
+}
+.boost-pfs-search-result-toolbar .boost-pfs-search-result-panel-controls {
+	padding: 13px 0;
+	margin: 0;
+}
+@media (max-width: {{breakpointMobile}}) {
+	.boost-pfs-search-result-toolbar .boost-pfs-search-totlal-result {
+		display: none;
+	}
+}
+
+.boost-pfs-search-result-wrap {
+	margin-top: 50px;
+}
+.boost-pfs-search-result-wrap .boost-pfs-search-result-list-item {
+	border-color: #cfcfcf;
+}
+.boost-pfs-filter-tree-v .boost-pfs-filter-refine-by, .boost-pfs-filter-refine-by-wrapper-v .boost-pfs-filter-refine-by {
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+/* start-boost-custom */
+/* #boost-79618: customize filter scrollbar */
+.boost-pfs-filter-has-scrollbar .boost-pfs-filter-option-content-inner::-webkit-scrollbar {
+  width: 0.5em;
+}
+ 
+.boost-pfs-filter-has-scrollbar .boost-pfs-filter-option-content-inner::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+ 
+.boost-pfs-filter-has-scrollbar .boost-pfs-filter-option-content-inner::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+}
+
+.boost-pfs-filter-has-scrollbar .boost-pfs-filter-option-content-inner {
+  scrollbar-color: light;
+  scrollbar-width: 0.5em;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* #boost-79618: Apply All */
+@media (max-width: {{ breakpointMobile }}) {
+	.boost-pfs-filter-tree {
+		 height: 100%;
+		 padding-top: 20px;
+	}
+	 .boost-pfs-filter-tree .boost-pfs-filter-tree-content {
+		 height: 100%;
+	}
+	 .boost-pfs-filter-tree .boost-pfs-filter-options-wrapper {
+		 height: calc(100% - 116px);
+		 overflow-y: auto;
+		 overflow-x: hidden;
+	}
+	 .boost-pfs-filter-tree .boost-pfs-filter-refine-by-wrapper {
+		 display: none;
+	}
+	 .boost-pfs-filter-mobile-footer {
+		 display: block;
+		 height: 115px;
+		 border-top: 1px solid #d3d3d3;
+		 padding-top: 10px;
+	}
+	 .boost-pfs-filter-mobile-footer .boost-pfs-filter-show-result {
+		 display: none;
+	}
+	 .boost-pfs-filter-mobile-footer .boost-pfs-filter-apply-all-button {
+		 display: block;
+		 background: #000;
+		 color: #fff;
+		 text-align: center;
+		 font-weight: 400;
+		 font-size: 15px;
+         width: 55%;
+         line-height: 1;       
+	}
+	 .boost-pfs-filter-mobile-footer .boost-pfs-filter-clear-all {
+		 display: block !important;
+		 background: transparent;
+		 color: #000;
+		 text-align: center;
+		 font-size: 15px;
+		 font-weight: 400;
+         width: 40%;
+         border: 2px solid #000;
+         line-height: 1;
+	}
+  
+    .boost-pfs-filter-mobile-footer {
+        position: fixed;
+        bottom: 10px;
+        width: 100%;
+        left: 0;
+        padding: 10px 20px;
+        display: flex !important;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        height: 65px !important;
+    }  
+}
+
+/* #boost-79618: Filter Count */
+.boost-pfs-filter-total-count { font-weight: 700; }
+
+/* #boost-79618: Refine By */
+
+.boost-pfs-filter-refine-by > span,
+.boost-pfs-filter-refine-by .boost-pfs-filter-clear-all { display: none !important; }
+
+.boost-pfs-filter-refine-by .boost-pfs-filter-refine-by-items .refine-by-item .boost-pfs-filter-clear {
+  width: auto !important;
+  font-size: 12px;
+}
+
+.boost-pfs-filter-refine-by-items {
+  display: flex !important;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.refine-by-item { margin-right: 10px !important; }
+.refine-by-value { font-weight: 700 !important; }
+
+.boost-pfs-filter-refine-by-wrapper-h .boost-pfs-filter-pc .boost-pfs-filter-refine-by-items .refine-by-item, 
+.boost-pfs-filter-tree-h .boost-pfs-filter-pc .boost-pfs-filter-refine-by-items .refine-by-item {
+  background: none;
+}
+
+.template-collection .boost-pfs-filter-refine-by-wrapper-v { display: none !important }
+.boost-pfs-filter-tree-v .boost-pfs-filter-refine-by, .boost-pfs-filter-refine-by-wrapper-v .boost-pfs-filter-refine-by {
+    padding-left: 0;
+    padding-right: 0;
+}
+/* end-boost-custom */

@@ -1,0 +1,141 @@
+<div class="Container trade">
+  <header class="PageHeader">
+    <div class="SectionHeader SectionHeader--center">
+      <h1 class="SectionHeader__Heading Heading u-h1">{{ page.title }}</h1>
+    </div>
+  </header>
+
+  <div class="PageContent PageContent--narrow">
+    <div class="Rte">
+      {{- page.content -}}
+
+      <div class="trade-form-title"> <span> Join Casaza Trade </span></div>
+      
+     {%- form 'contact', class: 'Form Form--spacingTight' -%}
+        { {%- if form.posted_successfully? -%}
+        <p class="Alert Alert--success">{{ 'contact.form.successfully_sent' | t }}</p>
+      {%- endif -%}
+
+      {%- if form.errors -%}
+        <div class="Form__Alert Alert Alert--error">
+          <ul class="Alert__ErrorList">
+            {%- for field in form.errors -%}
+              {%- if field == 'form' -%}
+                <li class="Alert__ErrorItem">{{ form.errors.messages[field] }}</li>
+              {%- else -%}
+                <li class="Alert__ErrorItem"><strong>{{ form.errors.translated_fields[field] }}</strong> {{ form.errors.messages[field] }}</li>
+              {%- endif -%}
+            {%- endfor -%}
+          </ul>
+        </div>
+      {%- endif -%}
+
+
+        <div class="Form__Group">
+          <div class="Form__Item">
+            <input type="text" class="Form__Input" name="contact[name]" aria-label="Full name" placeholder="Full Name" required >
+            <label class="Form__FloatingLabel">Full Name</label>
+          </div>
+          <div class="Form__Item">
+            <input type="text" class="Form__Input" name="contact[businessname]" aria-label="{{ 'contact.form.name' | t }}" placeholder="Business Name" required >
+            <label class="Form__FloatingLabel">Business Name</label>
+          </div>
+</div>
+      <div class="Form__Group">
+          <div class="Form__Item">
+            <input type="email" class="Form__Input" name="contact[email]" aria-label="{{ 'contact.form.email' | t }}" placeholder="Business Email" required>
+            <label class="Form__FloatingLabel">Business Email</label>
+          </div>
+           <div class="Form__Item">
+            <input type="tel" class="Form__Input" name="contact[tel]" aria-label="Business Phone Number" placeholder="Business Phone Number" >
+            <label class="Form__FloatingLabel">Business Phone Number</label>
+          </div>
+        </div>
+      <div class="Form__Group">
+           <div class="Form__Item">
+            <input type="telephone" class="Form__Input" name="contact[website]" aria-label="Business Website" placeholder="Business Website" >
+            <label class="Form__FloatingLabel">Business Website</label>
+          </div>
+        </div>
+
+        {%- for block in section.blocks -%}
+          {%- assign field_title = block.settings.title -%}
+
+          {%- if field_title == blank -%}
+            {%- capture field_title -%}Custom field {% increment custom_field %}{%- endcapture -%}
+          {%- endif -%}
+
+      
+            </div>
+      
+        {%- endfor -%}
+
+     
+
+        <button type="submit" class="Form__Submit Button Button--primary Button--full">{{ 'contact.form.submit' | t }}</button>
+      {%- endform -%}
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Contact page",
+  "settings": [],
+  "blocks": [
+    {
+      "type": "text",
+      "name": "Text field",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Name",
+          "default": "Custom field"
+        },
+        {
+          "type": "checkbox",
+          "id": "use_long_text",
+          "label": "Use long text",
+          "default": false
+        },
+        {
+          "type": "checkbox",
+          "id": "is_required",
+          "label": "Field is required",
+          "default": false
+        }
+      ]
+    },
+    {
+      "type": "dropdown",
+      "name": "Dropdown",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Name",
+          "default": "Custom field"
+        },
+        {
+          "type": "text",
+          "id": "values",
+          "label": "Values",
+          "info": "Separate each value by a comma.",
+          "default": "value 1, value 2, value 3"
+        }
+      ]
+    }
+  ],
+  "default": {
+    "blocks": [
+      {
+        "type": "text",
+        "settings": {
+          "title": "Your phone (optional)"
+        }
+      }
+    ]
+  }
+}
+{% endschema %}

@@ -1,0 +1,55 @@
+<div class="CollectionToolbar__Item CollectionToolbar__Item--sort Heading Text--subdued u-h6">
+    <label for="SortBy">Sort</label>
+    <select name="SortBy" id="SortBy">
+        {% for option in collection.sort_options %}
+<script>console.log({{ option.value | json }});</script>
+      		<option value="{{ option.value }}" {% if option.value == collection.sort_by %}selected{% endif %}>{{ option.name }}</option>
+        {% endfor %}
+    </select>
+</div>
+<script>
+// Save existing sort parameters
+Shopify.queryParams = {};
+if(location.search.length) {
+    for(var aKeyValue, i = 0, aCouples = location.search.substr(1).split('&'); i < aCouples.length; i++) {
+    aKeyValue = aCouples[i].split('=');
+        if (aKeyValue.length > 1) {
+            Shopify.queryParams[decodeURIComponent(aKeyValue[0])] = decodeURIComponent(aKeyValue[1]);
+        }
+    }
+}
+
+// Add existing sort parameters to current URL
+document.querySelector('#SortBy').addEventListener('change', function(e) {
+    var value = e.currentTarget.value;
+    Shopify.queryParams.sort_by = value;
+    location.search = new URLSearchParams(Shopify.queryParams).toString();
+});
+</script>
+<!-- <div class="CollectionToolbar__Item CollectionToolbar__Item--sort Heading Text--subdued u-h6">
+  <label for="sort-by">Sort by</label> 
+  <select id="sort-by">
+    <script>console.log({{ collection | json }});</script>
+    <option value="best-selling">{{ 'collections.sorting.best_selling' | t }}</option>
+    <option value="price-ascending">{{ 'collections.sorting.price_ascending' | t }}\</option>
+    <option value="price-descending">{{ 'collections.sorting.price_descending' | t }}</option>
+    <option value="created-descending">{{ 'collections.sorting.date_descending' | t }}</option>
+  </select>
+</div>
+<script>
+Shopify.queryParams = {};
+if (location.search.length) {
+  for (var aKeyValue, i = 0, aCouples = location.search.substr(1).split('&'); i < aCouples.length; i++) {
+    aKeyValue = aCouples[i].split('=');
+    if (aKeyValue.length > 1) {
+      Shopify.queryParams[decodeURIComponent(aKeyValue[0])] = decodeURIComponent(aKeyValue[1]);
+    }
+  }
+}
+jQuery('#sort-by')
+  .val('{{ collection.sort_by | default: collection.default_sort_by | escape }}')
+  .bind('change', function() {
+    Shopify.queryParams.sort_by = jQuery(this).val();
+    location.search = jQuery.param(Shopify.queryParams).replace(/\+/g, '%20');
+  });
+</script> -->

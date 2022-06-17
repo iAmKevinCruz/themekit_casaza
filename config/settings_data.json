@@ -1,0 +1,3197 @@
+{
+  "current": {
+    "heading_color": "#1c1b1b",
+    "text_color": "#000000",
+    "text_light_color": "#6a6a6a",
+    "link_color": "#6a6a6a",
+    "background": "#ffffff",
+    "light_background": "#ffffff",
+    "product_on_sale_color": "#f94c43",
+    "button_background": "#1c1b1b",
+    "button_text_color": "#ffffff",
+    "header_background": "#ffffff",
+    "header_heading_color": "#1c1b1b",
+    "header_light_color": "#6a6a6a",
+    "footer_background": "#f8f8f8",
+    "footer_heading_color": "#1c1b1b",
+    "footer_text_color": "#1c1b1b",
+    "navigation_background": "#1c1b1b",
+    "navigation_text_color": "#ffffff",
+    "newsletter_popup_background": "#1c1b1b",
+    "newsletter_popup_text_color": "#ffffff",
+    "secondary_elements_background": "#1c1b1b",
+    "secondary_elements_text_color": "#ffffff",
+    "heading_font": "montserrat_n5",
+    "heading_size": "small",
+    "uppercase_heading": true,
+    "text_font": "century_gothic_n4",
+    "base_text_font_size": 14,
+    "show_page_transition": false,
+    "show_button_transition": false,
+    "show_image_zooming": false,
+    "show_element_staggering": false,
+    "search_mode": "product,article",
+    "product_show_price_on_hover": false,
+    "product_show_secondary_image": false,
+    "product_info_alignment": "left",
+    "product_image_size": "natural",
+    "product_list_horizontal_spacing": "large",
+    "product_list_vertical_spacing": "medium",
+    "cart_type": "drawer",
+    "cart_enable_notes": true,
+    "cart_show_free_shipping_threshold": false,
+    "cart_free_shipping_threshold": "0",
+    "social_facebook": "https:\/\/www.facebook.com\/Casaza",
+    "social_twitter": "https:\/\/twitter.com\/Casaza",
+    "social_pinterest": "",
+    "social_instagram": "https:\/\/www.instagram.com\/casaza\/",
+    "social_linkedin": "https:\/\/www.linkedin.com\/company\/casaza",
+    "favicon": "shopify:\/\/shop_images\/casaza_icon_4ccc37eb-2ac2-4056-891f-7a948b3695b3.png",
+    "checkout_logo_image": "shopify:\/\/shop_images\/unnamed.png",
+    "checkout_logo_position": "center",
+    "checkout_logo_size": "small",
+    "checkout_body_background_color": "#ffffff",
+    "checkout_input_background_color_mode": "white",
+    "checkout_sidebar_background_color": "#efefef",
+    "checkout_accent_color": "#1c1b1b",
+    "checkout_button_color": "#3cabb4",
+    "sections": {
+      "sidebar-menu": {
+        "type": "sidebar-menu",
+        "settings": {
+          "primary_menu": "new-menu",
+          "secondary_menu": "",
+          "show_social_media": true
+        }
+      },
+      "announcement": {
+        "type": "announcement",
+        "settings": {
+          "enable_bar": true,
+          "home_page_only": true,
+          "background": "#000000",
+          "text_color": "#ffffff",
+          "content": "Enjoy FREE SHIPPING on all orders!",
+          "link": ""
+        }
+      },
+      "header": {
+        "type": "header",
+        "blocks": {
+          "4991fb3e-13e9-4d3f-83da-46c7c4c96f2b": {
+            "type": "mega_menu",
+            "settings": {
+              "navigation_mega_menu": "",
+              "push_1_heading": "Example heading",
+              "push_1_subheading": "Example sub-heading",
+              "push_1_url": "",
+              "push_2_heading": "Example heading",
+              "push_2_subheading": "Example sub-heading",
+              "push_2_url": ""
+            }
+          },
+          "8b2d00ac-5274-4873-bdf9-b203b8d2b785": {
+            "type": "mega_menu",
+            "settings": {
+              "navigation_mega_menu": "",
+              "push_1_heading": "Example heading",
+              "push_1_subheading": "Example sub-heading",
+              "push_1_url": "",
+              "push_2_heading": "Example heading",
+              "push_2_subheading": "Example sub-heading",
+              "push_2_url": ""
+            }
+          }
+        },
+        "block_order": [
+          "4991fb3e-13e9-4d3f-83da-46c7c4c96f2b",
+          "8b2d00ac-5274-4873-bdf9-b203b8d2b785"
+        ],
+        "settings": {
+          "use_sticky_header": true,
+          "logo": "shopify:\/\/shop_images\/casaza.png",
+          "logo_max_width": 140,
+          "mobile_logo_max_width": 90,
+          "show_currency_selector": true,
+          "show_locale_selector": true,
+          "navigation_menu": "new-menu",
+          "navigation_style": "logoLeft",
+          "show_icons": true,
+          "enable_transparent_header": false,
+          "enable_transparent_header_collection": false,
+          "show_transparent_header_border": true,
+          "transparent_text_color": "#ffffff"
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "c8f3b7d3-82dc-4d80-bff0-fc1b5cd56b6c": {
+            "type": "links",
+            "settings": {
+              "menu": "footer-1",
+              "show_social_media": true
+            }
+          },
+          "3413ea35-c842-431a-93ea-dbc3180e1e0d": {
+            "type": "links",
+            "settings": {
+              "menu": "footer",
+              "show_social_media": true
+            }
+          },
+          "footer-2": {
+            "type": "newsletter",
+            "settings": {
+              "title": "Newsletter",
+              "content": "<p>Subscribe to receive updates, access to exclusive deals, and more.<\/p>",
+              "show_social_media": false
+            }
+          }
+        },
+        "block_order": [
+          "c8f3b7d3-82dc-4d80-bff0-fc1b5cd56b6c",
+          "3413ea35-c842-431a-93ea-dbc3180e1e0d",
+          "footer-2"
+        ],
+        "settings": {
+          "show_payment_methods": true,
+          "show_currency_selector": true,
+          "show_locale_selector": false
+        }
+      },
+      "slideshow": {
+        "type": "slideshow",
+        "blocks": {
+          "29b29acd-a8b5-45b0-8376-7cd54de04a14": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/SLS4295-4_1200x_eef0a4cf-7ef4-4ef1-b7ef-773f9bea3ac9.webp",
+              "mobile_image": "shopify:\/\/shop_images\/SLS4297_1200x_b2672787-fe21-432e-9fbe-243aab9c052b.webp",
+              "apply_overlay": true,
+              "content_position": "bottomLeft",
+              "subheading": "Enhance your home With Bold Wallpaper Designs",
+              "title": "",
+              "button_1_text": "Shop now",
+              "button_1_link": "https:\/\/www.casaza.com\/collections\/wallpaper",
+              "button_2_text": "",
+              "button_2_link": ""
+            }
+          }
+        },
+        "block_order": [
+          "29b29acd-a8b5-45b0-8376-7cd54de04a14"
+        ],
+        "settings": {
+          "show_fullscreen": true,
+          "show_arrow": false,
+          "autoplay": false,
+          "cycle_speed": 5,
+          "text_color": "#ffffff",
+          "button_color": "#363636",
+          "button_background": "#ffffff"
+        }
+      },
+      "featured-collections": {
+        "type": "featured-collections",
+        "blocks": {
+          "featured-collection-0": {
+            "type": "collection",
+            "settings": {
+              "collection": "",
+              "title": "",
+              "grid_items_count": 8,
+              "button_text": "View all products"
+            }
+          }
+        },
+        "block_order": [
+          "featured-collection-0"
+        ],
+        "settings": {
+          "title": "Featured collection",
+          "layout_mode": "grid",
+          "show_product_info": true,
+          "show_vendor": false,
+          "show_color_swatch": false,
+          "grid_mobile_items_per_row": "2",
+          "grid_desktop_items_per_row": 4
+        }
+      },
+      "collection-list": {
+        "type": "collection-list",
+        "blocks": {
+          "collection-0": {
+            "type": "collection",
+            "settings": {
+              "collection": "",
+              "image_alignment": "center center",
+              "content_position": "bottomLeft",
+              "subheading": "Sub-heading",
+              "title": "Collection name",
+              "button_text": "View products",
+              "apply_overlay": true
+            }
+          },
+          "collection-1": {
+            "type": "collection",
+            "settings": {
+              "collection": "",
+              "image_alignment": "center center",
+              "content_position": "bottomLeft",
+              "subheading": "Sub-heading",
+              "title": "Collection name",
+              "button_text": "View products",
+              "apply_overlay": true
+            }
+          },
+          "collection-2": {
+            "type": "collection",
+            "settings": {
+              "collection": "",
+              "image_alignment": "center center",
+              "content_position": "bottomLeft",
+              "subheading": "Sub-heading",
+              "title": "Collection name",
+              "button_text": "View products",
+              "apply_overlay": true
+            }
+          }
+        },
+        "block_order": [
+          "collection-0",
+          "collection-1",
+          "collection-2"
+        ],
+        "settings": {
+          "image_size": "normal",
+          "add_spacing": true,
+          "expand_collection": false,
+          "stack_on_mobile": true,
+          "text_color": "#ffffff",
+          "button_color": "#363636"
+        }
+      },
+      "featured-product": {
+        "type": "featured-product",
+        "settings": {
+          "subheading": "",
+          "title": "Featured product",
+          "show_headings_on_mobile": true,
+          "product": "",
+          "show_vendor": true,
+          "show_sku": false,
+          "show_description": true,
+          "description_below_add_to_cart": false,
+          "selector_mode": "dropdown",
+          "show_color_swatch": false,
+          "show_color_carousel": false,
+          "show_quantity_selector": true,
+          "show_inventory_quantity": false,
+          "inventory_quantity_threshold": 3,
+          "show_price_in_button": false,
+          "show_payment_button": true,
+          "show_pickup_availability": false
+        }
+      },
+      "timeline": {
+        "type": "timeline",
+        "blocks": {
+          "item-0": {
+            "type": "item",
+            "settings": {
+              "apply_overlay": true,
+              "title": "2000",
+              "subheading": "Sub-heading",
+              "heading": "Heading",
+              "content": "<p>Add your own custom content to give more information about your store, availability details...<\/p>"
+            }
+          },
+          "item-1": {
+            "type": "item",
+            "settings": {
+              "apply_overlay": true,
+              "title": "2001",
+              "subheading": "Sub-heading",
+              "heading": "Heading",
+              "content": "<p>Add your own custom content to give more information about your store, availability details...<\/p>"
+            }
+          },
+          "item-2": {
+            "type": "item",
+            "settings": {
+              "apply_overlay": true,
+              "title": "2002",
+              "subheading": "Sub-heading",
+              "heading": "Heading",
+              "content": "<p>Add your own custom content to give more information about your store, availability details...<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "item-0",
+          "item-1",
+          "item-2"
+        ],
+        "settings": {
+          "text_color": "#ffffff"
+        }
+      },
+      "blog-posts": {
+        "type": "blog-posts",
+        "blocks": {
+          "blog-0": {
+            "type": "blog",
+            "settings": {
+              "blog": "news"
+            }
+          }
+        },
+        "block_order": [
+          "blog-0"
+        ],
+        "settings": {
+          "subheading": "",
+          "title": "Featured article",
+          "show_category": false,
+          "button_text": "View all articles"
+        }
+      },
+      "shop-the-look": {
+        "type": "shop-the-look",
+        "blocks": {
+          "look-0": {
+            "type": "look",
+            "settings": {
+              "dot_style": "light",
+              "product_1": "",
+              "product_1_horizontal_position": 30,
+              "product_1_vertical_position": 40,
+              "product_2": "",
+              "product_2_horizontal_position": 45,
+              "product_2_vertical_position": 65,
+              "product_3": "",
+              "product_3_horizontal_position": 70,
+              "product_3_vertical_position": 50
+            }
+          },
+          "look-1": {
+            "type": "look",
+            "settings": {
+              "dot_style": "light",
+              "product_1": "",
+              "product_1_horizontal_position": 25,
+              "product_1_vertical_position": 45,
+              "product_2": "",
+              "product_2_horizontal_position": 55,
+              "product_2_vertical_position": 30,
+              "product_3": "",
+              "product_3_horizontal_position": 65,
+              "product_3_vertical_position": 60
+            }
+          }
+        },
+        "block_order": [
+          "look-0",
+          "look-1"
+        ],
+        "settings": {
+          "subheading": "Shop",
+          "title": "Our looks",
+          "show_mobile_product_info": false
+        }
+      },
+      "collection-template": {
+        "type": "collection-template",
+        "settings": {
+          "show_collection_info": true,
+          "show_collection_image": false,
+          "apply_overlay": true,
+          "show_color_swatch": false,
+          "show_vendor": false,
+          "collection_image_size": "normal",
+          "show_sort_by": true,
+          "show_layout_switch": false,
+          "toolbar_position": "top",
+          "filter_position": "sidebar",
+          "filter_mode": "tag",
+          "show_filter_color_swatch": true,
+          "filter_menu": "",
+          "grid_items_per_page": 40,
+          "grid_mobile_items_per_row": "2",
+          "grid_desktop_items_per_row": 4
+        }
+      },
+      "recently-viewed-products": {
+        "type": "recently-viewed-products",
+        "settings": {
+          "show_section": true,
+          "title": "Recently viewed",
+          "show_product_info": true,
+          "show_vendor": false,
+          "show_color_swatch": false
+        }
+      },
+      "collection-footer": {
+        "type": "collection-footer",
+        "settings": {
+          "show_section": false,
+          "text_color": "#ffffff",
+          "apply_overlay": true,
+          "title": "Our story",
+          "content": "<p>Add your own custom content to explain your processes...<\/p>"
+        }
+      },
+      "product-template": {
+        "type": "product-template",
+        "settings": {
+          "show_share_buttons": true,
+          "show_vendor": false,
+          "show_sku": false,
+          "show_taxes_included": true,
+          "description_below_add_to_cart": true,
+          "selector_mode": "block",
+          "show_color_swatch": false,
+          "show_color_carousel": false,
+          "show_quantity_selector": true,
+          "show_inventory_quantity": false,
+          "inventory_quantity_threshold": 3,
+          "show_price_in_button": false,
+          "show_payment_button": false,
+          "show_pickup_availability": false,
+          "image_size": "medium",
+          "stack_images": false,
+          "show_thumbnails": true,
+          "enable_image_zoom": true,
+          "enable_video_looping": false,
+          "tab_page_1_handle": "",
+          "tab_page_2_handle": "",
+          "reviews_enabled": false,
+          "featured_image_size": "large",
+          "icon1": "shopify:\/\/shop_images\/return.png",
+          "link_text1": "No Hassle Return Policy",
+          "link1": "shopify:\/\/pages\/returns-policy",
+          "icon2": "shopify:\/\/shop_images\/shipping.png",
+          "link_text2": "Delivery within 7 business days of dispatch.",
+          "link2": "",
+          "icon3": "shopify:\/\/shop_images\/contact.png",
+          "link_text3": "Contact Us",
+          "link3": "shopify:\/\/pages\/faq"
+        }
+      },
+      "product-recommendations": {
+        "type": "product-recommendations",
+        "settings": {
+          "show_product_recommendations": true,
+          "heading": "You may also like",
+          "show_product_info": true,
+          "show_vendor": false,
+          "show_color_swatch": false
+        }
+      },
+      "popup": {
+        "type": "popup",
+        "settings": {
+          "show_popup": true,
+          "show_only_on_index": false,
+          "show_only_for_visitors": true,
+          "show_only_once": true,
+          "title": "Get 10% off your first order.",
+          "content": "<p>Get early access to sales, designer scoops, and everything you’ll need to renovate and rejuvenate your space.<\/p>",
+          "show_newsletter": true,
+          "apparition_delay": 3
+        }
+      },
+      "16154491005771f8c1": {
+        "type": "blog-posts",
+        "blocks": {
+          "16154491005771f8c1-0": {
+            "type": "blog",
+            "settings": {
+              "blog": "coffee-with"
+            }
+          }
+        },
+        "block_order": [
+          "16154491005771f8c1-0"
+        ],
+        "settings": {
+          "subheading": "",
+          "title": "Featured Stories",
+          "show_category": false,
+          "button_link": "shopify:\/\/blogs\/coffee-with-1",
+          "button_text": "View all articles"
+        }
+      },
+      "161545571758b031b9": {
+        "type": "featured-collections",
+        "blocks": {
+          "161545571758b031b9-0": {
+            "type": "collection",
+            "settings": {
+              "collection": "featured-collection",
+              "title": "Best Selling",
+              "grid_items_count": 4,
+              "button_text": "Shop Now",
+              "collection_url": "shopify:\/\/collections\/featured-collection"
+            }
+          },
+          "64d67c45-cec0-4c7b-9d54-cd5bd8eeb207": {
+            "type": "collection",
+            "disabled": true,
+            "settings": {
+              "collection": "",
+              "title": "",
+              "grid_items_count": 8,
+              "button_text": "View all products",
+              "collection_url": ""
+            }
+          }
+        },
+        "block_order": [
+          "161545571758b031b9-0",
+          "64d67c45-cec0-4c7b-9d54-cd5bd8eeb207"
+        ],
+        "settings": {
+          "title": "Featured collection",
+          "layout_mode": "grid",
+          "show_product_info": true,
+          "show_vendor": false,
+          "show_color_swatch": false,
+          "grid_mobile_items_per_row": "2",
+          "grid_desktop_items_per_row": 4
+        }
+      },
+      "161546167414bfd699": {
+        "type": "custom-html",
+        "settings": {
+          "subheading": "",
+          "title": "In the Media",
+          "html": "<div class=\"Grid ArticleListWrapper\">\n\t<div class=\"Grid__Cell 1\/2--phone 1\/2--tablet width-20\">\n\t\t<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0552\/4180\/1913\/files\/apartment-therapy_2x_6b060c44-7072-4b80-9a53-aeb514f8b72b.png?v=1615460215\">\n\t<\/div>\n\t<div class=\"Grid__Cell 1\/2--phone 1\/2--tablet width-20\">\n\t\t<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0552\/4180\/1913\/files\/house-beautiful_2x_9b05533f-8d8c-4b1c-a17f-8348b23ce5eb.png?v=1615460215\">\n\t<\/div>\n\t<div class=\"Grid__Cell 1\/2--phone 1\/2--tablet width-20\">\n\t\t<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0552\/4180\/1913\/files\/timeout_2x_93f24838-8d6d-4115-b25b-df8f54da3c85.png?v=1615460215\">\n\t<\/div>\n\t<div class=\"Grid__Cell 1\/2--phone 1\/2--tablet width-20\">\n\t\t<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0552\/4180\/1913\/files\/cnet_2x_fb755a92-db83-4860-b22f-c04588b993ce.png?v=1615460215\">\n\t<\/div>\n\t<div class=\"Grid__Cell 1\/2--phone 1\/2--tablet width-20\">\n\t\t<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0552\/4180\/1913\/files\/today-show_2x_9df00c3a-0398-4b2a-8b0a-34f2edbb5fd8.png?v=1615460215\">\n<\/div>\n<\/div>"
+        }
+      },
+      "161552423993d69ff4": {
+        "type": "collection-list",
+        "disabled": true,
+        "blocks": {
+          "161552423993d69ff4-0": {
+            "type": "collection",
+            "settings": {
+              "collection": "",
+              "image": "shopify:\/\/shop_images\/Get_Inspired_-_1120x1200_bfd13646-dce8-4d24-a150-3ee49d175f54.png",
+              "image_alignment": "center center",
+              "content_position": "bottomLeft",
+              "subheading": "Get Inspired",
+              "title": "Modern Comfort Dining Room",
+              "button_text": "",
+              "button_link": "shopify:\/\/collections\/all",
+              "apply_overlay": false
+            }
+          },
+          "1753cfcb-9dbd-43ed-9633-88cd255c7258": {
+            "type": "collection",
+            "settings": {
+              "collection": "",
+              "image": "shopify:\/\/shop_images\/Coffee_With_1120x1200_56fbac27-8060-4623-83c7-61b54b31d981.png",
+              "image_alignment": "center center",
+              "content_position": "bottomLeft",
+              "subheading": "Coffee With",
+              "title": "Coffee With",
+              "button_text": "",
+              "button_link": "shopify:\/\/blogs\/coffee-with",
+              "apply_overlay": false
+            }
+          },
+          "a71ec63f-fd3a-46a2-be45-d6a66b7328d8": {
+            "type": "collection",
+            "settings": {
+              "collection": "",
+              "image": "shopify:\/\/shop_images\/Buy_Now_Pay_Later_1120x1200_a78faf26-bc39-4043-a722-17a0465b098d.png",
+              "image_alignment": "center center",
+              "content_position": "bottomLeft",
+              "subheading": "Buy Now, Pay Later",
+              "title": "Your dream home is within reach with easy financing at checkout.",
+              "button_text": "",
+              "button_link": "shopify:\/\/collections",
+              "apply_overlay": false
+            }
+          }
+        },
+        "block_order": [
+          "161552423993d69ff4-0",
+          "1753cfcb-9dbd-43ed-9633-88cd255c7258",
+          "a71ec63f-fd3a-46a2-be45-d6a66b7328d8"
+        ],
+        "settings": {
+          "image_size": "normal",
+          "add_spacing": false,
+          "expand_collection": true,
+          "stack_on_mobile": true,
+          "text_color": "#ffffff",
+          "button_color": "#363636"
+        }
+      },
+      "16155246635ab97145": {
+        "type": "collection-list",
+        "disabled": true,
+        "blocks": {
+          "16155246635ab97145-0": {
+            "type": "collection",
+            "settings": {
+              "collection": "",
+              "image": "shopify:\/\/shop_images\/sn.jpg",
+              "image_alignment": "center center",
+              "content_position": "bottomLeft",
+              "subheading": "DESIGN, DELIVERED",
+              "title": "Custom Window Treatments",
+              "button_text": "Learn more",
+              "button_link": "https:\/\/www.smithandnoble.com\/casaza\/",
+              "apply_overlay": true
+            }
+          },
+          "16155246635ab97145-1": {
+            "type": "collection",
+            "settings": {
+              "collection": "",
+              "image": "shopify:\/\/shop_images\/adt.jpg",
+              "image_alignment": "center center",
+              "content_position": "bottomLeft",
+              "subheading": "PROTECT YOUR HOME",
+              "title": "Home Security Systems",
+              "button_text": "Get A Free Quote",
+              "button_link": "https:\/\/www.adt.com\/casaza",
+              "apply_overlay": true
+            }
+          }
+        },
+        "block_order": [
+          "16155246635ab97145-0",
+          "16155246635ab97145-1"
+        ],
+        "settings": {
+          "image_size": "small",
+          "add_spacing": true,
+          "expand_collection": true,
+          "stack_on_mobile": true,
+          "text_color": "#ffffff",
+          "button_color": "#363636"
+        }
+      },
+      "page-faq-template": {
+        "type": "page-faq-template",
+        "blocks": {
+          "page-faq-template-0": {
+            "type": "separator",
+            "settings": {
+              "title": "General"
+            }
+          },
+          "page-faq-template-1": {
+            "type": "question",
+            "settings": {
+              "title": "What is Casaza?",
+              "answer": "<p>Casaza is a platform for the home—a place where you can be inspired and shop great design and products to renovate and rejuvenate your home. We’re bringing interior design to your home, one room at a time. Our professionally collated content is a source of inspiration and information for looks you love, while our highly curated collections will give you the products to match your taste and bring your vision to life.<\/p>"
+            }
+          },
+          "page-faq-template-2": {
+            "type": "question",
+            "settings": {
+              "title": "How do you choose products?",
+              "answer": "<p>We don’t want to have every home product… We want to have the right things.<\/p><p>Our Casaza staff hand-selects every item on the site, ensuring our products are curated to match your design tastes, budgets, and local flavor. We work closely with our suppliers to make sure you have the best experience possible to make your dream home a reality. When you shop with Casaza you can rest assured you’re getting high quality pieces for a great price.<\/p>"
+            }
+          },
+          "page-faq-template-3": {
+            "type": "question",
+            "settings": {
+              "title": "Do you price match other retailers?",
+              "answer": "<p>Casaza works with our suppliers and partners to provide you with competitive pricing, along with high quality service.<\/p>"
+            }
+          },
+          "5eef7fe1-6c6c-4439-814b-eefb76f75974": {
+            "type": "question",
+            "settings": {
+              "title": "Are there items that are one-of-a-kind or limited supply?",
+              "answer": "<p>Some products may have a limited offering and will be removed from the site once the items are no longer available. It may be possible that a product is sold out but has not been updated on the site before another order is taken. In this case you’ll be contacted via email as soon as possible to advise of this issue with the current status or re-selection opportunity.<\/p>"
+            }
+          },
+          "db096522-2630-4499-adae-d05d05cea6d3": {
+            "type": "question",
+            "settings": {
+              "title": "Where do you ship to?",
+              "answer": "<p>From Casaza.com we ship to all US States with the exception of Hawaii, Alaska and Puerto Rico. From Casaza.ca we ship to all Canadian provinces and territories.<\/p><p>Unfortunately we currently do not ship outside of Canada\/the USA.<\/p>"
+            }
+          },
+          "14fd090b-cbf9-4ef3-a0aa-2bff9ea7c62a": {
+            "type": "question",
+            "settings": {
+              "title": "Do you have sales or specials on your products?",
+              "answer": "<p>Great question! The best way to find out about sales and promotions on products is to <a href=\"https:\/\/casaza.com\/faq\/#\">sign up for our email list<\/a>.<\/p>"
+            }
+          },
+          "3aead750-acf9-42cf-9031-abbd2b5fdb9a": {
+            "type": "question",
+            "settings": {
+              "title": "I have a question that is not answered here. What do I do?",
+              "answer": "<p>Email <a href=\"mailto:support@casaza.com\">support@casaza.com<\/a> and our team will be happy to help!<\/p>"
+            }
+          },
+          "d4e905e8-4f00-43a0-a857-e1e54094312e": {
+            "type": "separator",
+            "settings": {
+              "title": "Orders"
+            }
+          },
+          "24dd0158-07d1-41e1-95f7-40a258214fdf": {
+            "type": "question",
+            "settings": {
+              "title": "How much do you charge for shipping?",
+              "answer": "<p>It’s your lucky day! Shipping is FREE on Casaza, so shop away!<\/p>"
+            }
+          },
+          "5b9f5c8e-cfff-484f-a5e1-b4e198683e73": {
+            "type": "question",
+            "settings": {
+              "title": "When will my credit card be charged?",
+              "answer": "<p>You’ll be charged for your order when you place it.<\/p>"
+            }
+          },
+          "8568278c-c7bc-4f87-88bf-454e19c04828": {
+            "type": "question",
+            "settings": {
+              "title": "Will I get confirmation of my order?",
+              "answer": "<p>You will always get a confirmation that your order has been placed within a few minutes of placing your order, so keep an eye on your inbox (and sometimes your spam folder, too)! If you haven’t seen it come through, email <a href=\"mailto:support@casaza.com\">support@casaza.com<\/a> and we’ll resend it.<\/p>"
+            }
+          },
+          "65249fcb-a206-4fe9-b733-a7ae37269734": {
+            "type": "question",
+            "settings": {
+              "title": "When can I expect my order to arrive?",
+              "answer": "<p>Don’t worry, we’ve chosen the fastest, safest, and most reliable carrier possible for you! Your delivery date is reliant on several factors, like whether you order a quick ship, in-stock, or a custom piece and where it’s coming and going. Delivery options, including ETA, will be sent once your order is confirmed and shipped from the supplier. <\/p>"
+            }
+          },
+          "c98b73c0-002f-4977-84cf-f1d34a60ce97": {
+            "type": "question",
+            "settings": {
+              "title": "Where will my Freight item be delivered to?",
+              "answer": "<p>Our free shipping offer includes Standard Freight delivery, which means items will be delivered to your sidewalk, driveway, or garage. You will be responsible for the transport of the items beyond that point into your home. If you’d like to upgrade to another delivery service, please contact our customer support team for a quote.<\/p>"
+            }
+          },
+          "3274b761-b84c-4a95-a57b-a7fa01b59816": {
+            "type": "question",
+            "settings": {
+              "title": "Can I update or cancel my order?",
+              "answer": "<p>Mistakes happen — we get it! If your item hasn’t shipped yet, you can cancel your order for a full refund. In-stock items must be cancelled within 3 hours of ordering. Made-to-order must be cancelled within 24 hours of ordering. In some cases we can be more flexible if your item isn’t yet on the way, but please contact us quickly and directly at <a href=\"mailto:support@casaza.com\">support@casaza.com<\/a> so we can find a solution.<\/p>"
+            }
+          },
+          "929a712b-93ad-4bff-8fb7-3fd9a0d09b1b": {
+            "type": "question",
+            "settings": {
+              "title": "Can I track my shipment?",
+              "answer": "<p>Once your order is on its way, we’ll send you a shipping confirmation email with a link to track the order on the carrier’s website. By clicking the link, you will be able to check the status of your order once is in transit. Please note: After your order ships, it may take 24-48 hours to reflect tracking details.<\/p>"
+            }
+          },
+          "f9ef9a27-dc0e-4268-87d2-fc7cb48e5e36": {
+            "type": "question",
+            "settings": {
+              "title": "What is your return policy?",
+              "answer": "<p>We know that sometimes things don’t work out quite as planned. At Casaza, we put you first, so returns are always simple. If you’re unhappy with your purchase, please email <a href=\"mailto:support@casaza.com\">support@casaza.com<\/a> so our team can advise on next steps and process your refund, excluding shipping costs.<\/p><p>Please note that returns should be initiated within 30 days of delivery, with items in their original condition and packaging. Once the supplier receives the returned item, they will let our support team know the item is in its original state, and we’ll refund your payment. Pro Tip: We advise sending items back via a tracked shipping service. <\/p><p>Unfortunately, the following items may not be returned: <\/p><p>Clearance\/final sale items<\/p><p>Gift certificates <\/p><p>Personalised items <\/p><p>Mattresses <\/p><p>Items marked as ‘non-returnable’<\/p><p>Please note that if an item is made to order, there will be a 10% restocking fee.<\/p>"
+            }
+          },
+          "382604fe-5dac-4eb4-afd1-65cbd8e1b2de": {
+            "type": "question",
+            "settings": {
+              "title": "I received the wrong item. What should I do?",
+              "answer": "<p>Uh oh! Contact us at <a href=\"mailto:support@casaza.com\">support@casaza.com<\/a> with your order number and pictures of what you received. We’ll rectify the situation!<\/p>"
+            }
+          },
+          "f3962844-a653-41de-9aee-fbf65bff272b": {
+            "type": "question",
+            "settings": {
+              "title": "I received an incomplete order. What should I do?",
+              "answer": "<p>We work with wonderful suppliers all over the country, so if you’ve ordered multiple items it’s likely that your items have shipped from different warehouses, so products may ship at different times. If you haven’t received something, don’t fret! Email support@casaza.com and we’ll look into it for you.<\/p>"
+            }
+          },
+          "a62a123b-e597-4f15-b27e-6e2caf635b16": {
+            "type": "question",
+            "settings": {
+              "title": "What should I do if my shipment is damaged?",
+              "answer": "<p>Oh no! In the unlikely event that your order arrives damaged or defective, report the issue to support@casaza.com within 24 hours of delivery. Please include pictures of the damaged item! Let us know if you want us to cover the costs of getting a replacement shipped to you or if you’d like a refund.<\/p>"
+            }
+          },
+          "26fe36cf-33ba-49d4-b7ac-4317efe414b6": {
+            "type": "separator",
+            "settings": {
+              "title": "Trade"
+            }
+          },
+          "20502345-3e25-43ad-b327-9cdab669119c": {
+            "type": "question",
+            "settings": {
+              "title": "I'm a designer and I want to. be featured on Casaza. What should I do?",
+              "answer": "<p>We’re flattered, really! Email <a href=\"mailto:marketing@casaza.com\">marketing@casaza.com<\/a> and let’s chat!<\/p>"
+            }
+          },
+          "e04396bd-18c2-4ccf-8c16-45f45dd10cf5": {
+            "type": "question",
+            "settings": {
+              "title": "I’m a supplier and want to sell on Casaza. What should I do?",
+              "answer": "<p>Wow, little old us?! Email <a href=\"mailto:support@casaza.com\">support@casaza.com<\/a> and let’s chat!<\/p>"
+            }
+          },
+          "d3c02fd8-6254-4fbb-b031-bacf725ad2d2": {
+            "type": "separator",
+            "settings": {
+              "title": "Accounts"
+            }
+          },
+          "c2d8df6c-f06b-4e56-9594-639a5172ca88": {
+            "type": "question",
+            "settings": {
+              "title": "How do I update my email address\/password\/delete my account?",
+              "answer": "<p>Email <a href=\"mailto:support@casaza.com\">support@casaza.com<\/a> and we’ll make those changes for you!<\/p>"
+            }
+          },
+          "559c29b5-00f1-4880-94c7-5b5604346646": {
+            "type": "question",
+            "settings": {
+              "title": "I’m unable to sign in. What should I do?",
+              "answer": "<p>Weird, let’s look into that! Email <a href=\"mailto:support@casaza.com\">support@casaza.com<\/a> and we’ll get you back up and running in no time.<\/p>"
+            }
+          },
+          "f2aee9b3-109d-4231-8cf9-d73f5961b21d": {
+            "type": "question",
+            "settings": {
+              "title": "How do I manage my email subscription?",
+              "answer": "<p>Email <a href=\"mailto:support@casaza.com\">support@casaza.com<\/a> and we’ll make those changes for you!<\/p>"
+            }
+          },
+          "ee12a7c7-9499-4147-8141-3865ef5a8a92": {
+            "type": "question",
+            "settings": {
+              "title": "How can I give feedback about my Casaza experience?",
+              "answer": "<p>We are so grateful for feedback! Drop us a line at <a href=\"mailto:support@casaza.com\">support@casaza.com<\/a> or @Casaza on social media with your questions, concerns, thoughts, hopes, and dreams… We’re excited to hear what you think!<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "page-faq-template-0",
+          "page-faq-template-1",
+          "page-faq-template-2",
+          "page-faq-template-3",
+          "5eef7fe1-6c6c-4439-814b-eefb76f75974",
+          "db096522-2630-4499-adae-d05d05cea6d3",
+          "14fd090b-cbf9-4ef3-a0aa-2bff9ea7c62a",
+          "3aead750-acf9-42cf-9031-abbd2b5fdb9a",
+          "d4e905e8-4f00-43a0-a857-e1e54094312e",
+          "24dd0158-07d1-41e1-95f7-40a258214fdf",
+          "5b9f5c8e-cfff-484f-a5e1-b4e198683e73",
+          "8568278c-c7bc-4f87-88bf-454e19c04828",
+          "65249fcb-a206-4fe9-b733-a7ae37269734",
+          "c98b73c0-002f-4977-84cf-f1d34a60ce97",
+          "3274b761-b84c-4a95-a57b-a7fa01b59816",
+          "929a712b-93ad-4bff-8fb7-3fd9a0d09b1b",
+          "f9ef9a27-dc0e-4268-87d2-fc7cb48e5e36",
+          "382604fe-5dac-4eb4-afd1-65cbd8e1b2de",
+          "f3962844-a653-41de-9aee-fbf65bff272b",
+          "a62a123b-e597-4f15-b27e-6e2caf635b16",
+          "26fe36cf-33ba-49d4-b7ac-4317efe414b6",
+          "20502345-3e25-43ad-b327-9cdab669119c",
+          "e04396bd-18c2-4ccf-8c16-45f45dd10cf5",
+          "d3c02fd8-6254-4fbb-b031-bacf725ad2d2",
+          "c2d8df6c-f06b-4e56-9594-639a5172ca88",
+          "559c29b5-00f1-4880-94c7-5b5604346646",
+          "f2aee9b3-109d-4231-8cf9-d73f5961b21d",
+          "ee12a7c7-9499-4147-8141-3865ef5a8a92"
+        ],
+        "settings": {}
+      },
+      "about-text-with-image": {
+        "type": "about-text-with-image",
+        "settings": {
+          "subheading": "",
+          "title": "Bring It Home",
+          "image": "shopify:\/\/shop_images\/scott-brothers-3x500.png",
+          "image_position": "right",
+          "content": "<p>Scott Brothers Drew and Jonathan, of HGTV’s <em>Property Brothers,<\/em> have designed and renovated hundreds of homes, and they know one thing to be true: <strong>It’s hard to bring the elevated designs you love to life in your home. <\/strong>It’s time to be confident in your home design and renovation projects so you can create a home that works for you. <\/p><p>We know there’s no such thing as one-home-fits-all, so we’re changing the impersonal, overwhelming and expensive process of designing your home. <\/p><p>Casaza delivers personalized options for your lifestyle, taste and budget.<\/p><p><strong>Experience a new way to Bring It Home. <\/strong>Learn from industry-leading professionals, get inspired by designs spanning styles and budgets, and browse and shop your new favorite products, all in one place. Together, we’ll bring your vision to life, from inspiration to execution.<\/p><p>Casaza is a place where you can get inspired and find everything you’ll need to renovate and rejuvenate your space. There’s no time like the present to make your dream home a reality.<\/p><p><br\/><\/p>",
+          "link_text": "",
+          "link_url": ""
+        }
+      },
+      "about-text-with-image2": {
+        "type": "about-text-with-image2",
+        "settings": {
+          "subheading": "",
+          "title": "Our Values",
+          "image": "shopify:\/\/shop_images\/casaza-values.jpg",
+          "image_position": "left",
+          "content": "<p>We believe you can love your home no matter where you live or the size of your budget. We know knowledge is power so we share and encourage design thinking. We value a highly personalized customer experience, and we celebrate a good deal without compromising quality.<\/p><p>We know there are a million ways to shop and learn, and we appreciate that you’ve chosen Casaza.<\/p>",
+          "link_text": "",
+          "link_url": ""
+        }
+      },
+      "about-text-with-image3": {
+        "type": "about-text-with-image3",
+        "settings": {
+          "subheading": "",
+          "title": "Our Team",
+          "image": "shopify:\/\/shop_images\/dining-room.jpg",
+          "image_position": "right",
+          "content": "<p>Casaza is led by a team of world class executives from companies like Amazon, HomeAway from Expedia, Farfetch, Microsoft, Net a Porter, TripAdvisor, and Gilt Groupe – all of whom are dedicated to creating a culture that thrives on mutual respect, celebrates diversity, promotes excellence and innovation, and above all else, knows that it takes everyone loving what they do in order to build a truly world-class business.<\/p>",
+          "link_text": "",
+          "link_url": ""
+        }
+      },
+      "About-Featured": {
+        "type": "About-Featured",
+        "blocks": {
+          "49c0ab42-db5d-41f5-a263-9133e7ca00ca": {
+            "type": "image",
+            "settings": {
+              "Image": "shopify:\/\/shop_images\/time-out.png"
+            }
+          },
+          "e0e51842-3f71-4645-85e7-0e089748d0ec": {
+            "type": "image",
+            "settings": {
+              "Image": "shopify:\/\/shop_images\/Designer-Profile-3.png"
+            }
+          },
+          "26be133e-085f-474b-83af-f22bfda83c1d": {
+            "type": "image",
+            "settings": {
+              "Image": "shopify:\/\/shop_images\/hb.png"
+            }
+          },
+          "9f55649f-2c9b-4c0e-a233-428f1f376641": {
+            "type": "image",
+            "settings": {
+              "Image": "shopify:\/\/shop_images\/logo_forbes-5c369abf79396-1024x1024.jpg"
+            }
+          }
+        },
+        "block_order": [
+          "49c0ab42-db5d-41f5-a263-9133e7ca00ca",
+          "e0e51842-3f71-4645-85e7-0e089748d0ec",
+          "26be133e-085f-474b-83af-f22bfda83c1d",
+          "9f55649f-2c9b-4c0e-a233-428f1f376641"
+        ],
+        "settings": {
+          "title": "Featured in...",
+          "text": "As seen on The TODAY Show, Forbes, CNET, FOX Business, Buzzfeed, Domino, The Daily Beast, Yahoo!, New York Post, Vox, PureWow, Cheddar, Cottages and Gardens, Men’s Health, AM New York, Retail Dive, and more!"
+        }
+      },
+      "about": {
+        "type": "about",
+        "blocks": {
+          "dc61e4bb-c685-4c17-b6b3-7f8e57a13d0f": {
+            "type": "image",
+            "settings": {
+              "subtitle": "CEOS",
+              "title": "Drew & Jonathan Scott"
+            }
+          },
+          "2e92d922-0975-4e42-ba4f-d8ae477ae9a3": {
+            "type": "image",
+            "settings": {
+              "subtitle": "PRESIDENT & CHIEF OPERATING OFFICER",
+              "title": "Taleeb Noormohamed"
+            }
+          },
+          "201c7556-bdfc-4159-b37f-81cc2fec659d": {
+            "type": "image",
+            "settings": {
+              "subtitle": "DIRECTOR OF BUSINESS OPERATIONS",
+              "title": "Moe Munshi"
+            }
+          },
+          "163cdac0-f51a-42d1-ad22-53d5bb377085": {
+            "type": "image",
+            "disabled": true,
+            "settings": {
+              "subtitle": "HEAD OF GLOBAL BUSINESS DEVELOPMENT",
+              "title": "Mark Spencer"
+            }
+          },
+          "045c8bdc-1bd0-4e29-8181-f1170484ad95": {
+            "type": "image",
+            "settings": {
+              "subtitle": "OPERATIONS ASSOCIATE",
+              "title": "Pinar Tuncel"
+            }
+          },
+          "c88dbf15-6a41-49ae-a42d-0fbaf2bdb445": {
+            "type": "image",
+            "settings": {
+              "subtitle": "DIGITAL CONTENT MANAGER",
+              "title": "Joanne Oclaray"
+            }
+          },
+          "ecf3281c-0acd-4706-a777-969bc0f9b3c3": {
+            "type": "image",
+            "disabled": true,
+            "settings": {
+              "subtitle": "SOFTWARE ENGINEER",
+              "title": "Akshay Prabhakar"
+            }
+          },
+          "6dc088f2-6e08-4b21-80a2-61235de4fbf2": {
+            "type": "image",
+            "settings": {
+              "subtitle": "SOCIAL MEDIA MANAGER",
+              "title": "Isabella Alvarez"
+            }
+          }
+        },
+        "block_order": [
+          "dc61e4bb-c685-4c17-b6b3-7f8e57a13d0f",
+          "2e92d922-0975-4e42-ba4f-d8ae477ae9a3",
+          "201c7556-bdfc-4159-b37f-81cc2fec659d",
+          "163cdac0-f51a-42d1-ad22-53d5bb377085",
+          "045c8bdc-1bd0-4e29-8181-f1170484ad95",
+          "c88dbf15-6a41-49ae-a42d-0fbaf2bdb445",
+          "ecf3281c-0acd-4706-a777-969bc0f9b3c3",
+          "6dc088f2-6e08-4b21-80a2-61235de4fbf2"
+        ],
+        "settings": {}
+      },
+      "1615876615ad668c3f": {
+        "type": "collection-list",
+        "disabled": true,
+        "blocks": {
+          "1615876615889307d5-0": {
+            "type": "collection",
+            "settings": {
+              "collection": "",
+              "image": "shopify:\/\/shop_images\/Untitled_design_59.png",
+              "image_alignment": "center center",
+              "content_position": "bottomCenter",
+              "subheading": "Get Inspired",
+              "title": "Reveal Magazine Challenge: 1 Room, 3 Looks",
+              "button_text": "read more",
+              "button_link": "",
+              "apply_overlay": false
+            }
+          },
+          "1615876615889307d5-1": {
+            "type": "collection",
+            "settings": {
+              "collection": "",
+              "image": "shopify:\/\/shop_images\/Untitled_design_60.png",
+              "image_alignment": "center center",
+              "content_position": "middleCenter",
+              "subheading": "How-To",
+              "title": "Should I Hire A Designer?",
+              "button_text": "Hire",
+              "button_link": "shopify:\/\/blogs\/news\/should-i-hire-a-designer",
+              "apply_overlay": false
+            }
+          }
+        },
+        "block_order": [
+          "1615876615889307d5-0",
+          "1615876615889307d5-1"
+        ],
+        "settings": {
+          "image_size": "large",
+          "add_spacing": false,
+          "expand_collection": true,
+          "stack_on_mobile": true,
+          "text_color": "#ffffff",
+          "button_color": "#000000"
+        }
+      },
+      "Affiliate_Network-text-with-image": {
+        "type": "Affiliate_Network-text-with-image",
+        "settings": {
+          "section_size": "small",
+          "image": "shopify:\/\/shop_images\/1_cbdd76d8-244d-48f8-b23c-b4591049365d.jpg",
+          "text_color": "#ffffff",
+          "overlay_color": "#000000",
+          "overlay_opacity": 0,
+          "subheading": "",
+          "title": "Join the Casaza Affiliate Network",
+          "content": "<p>Share in our success with the best curated collection of furniture and home decor, alongside the global reach of Property Brothers Drew and Jonathan Scott.<\/p>\n<a href=\"https:\/\/www.shareasale.com\/shareasale.cfm?merchantID=84366\" class=\"Button Button--primary\" target=\"_blank\">Join Now<\/a><br>\n<a href=\"\/pages\/privacy-policy\" style=\"    position: relative;\n    top: 10px;\" target=\"_blank\">Terms & Conditions<\/a>"
+        }
+      },
+      "Affiliate_Network-text-with-image2": {
+        "type": "Affiliate_Network-text-with-image2",
+        "settings": {
+          "subheading": "",
+          "title": "Overview",
+          "image": "shopify:\/\/shop_images\/Images.png",
+          "image_position": "right",
+          "content": "<p>Casaza’s affiliate program can help you earn a commission on thousands of furniture and home decor products. Our partners at ShareASale ensure the best tracking, reporting, and payment for affiliates.<\/p>",
+          "link_text": ""
+        }
+      },
+      "Affiliate_Network-custom-html": {
+        "type": "Affiliate_Network-custom-html",
+        "settings": {
+          "subheading": "",
+          "title": "Benefits",
+          "html": "<div class=\"Grid ArticleListWrapper\">\n  <div class=\"Grid__Cell 1\/2--tablet 1\/2--lap-and-up \">\n   <div class=\"\">\n    <h1>7%<\/h1>\n    <p>Earn up to 7% commission on sales<\/p>\n   <\/div>\n  <\/div>\n\n  <div class=\"Grid__Cell 1\/2--tablet 1\/2--lap-and-up \">\n   <div class=\"\">\n    <h1>$5<\/h1>\n    <p>Earn $5 per lead<\/p>\n   <\/div>\n  <\/div>\n<\/div>"
+        }
+      },
+      "Affiliate_Network-text-with-image3": {
+        "type": "Affiliate_Network-text-with-image3",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/Untitled-2_copy.jpg",
+          "background": "#ffffff",
+          "text_color": "#000000",
+          "block_size": "large",
+          "title": "",
+          "content": "<div class=\"Grid ArticleListWrapper\">\n  <div class=\"Grid__Cell 1\/0--tablet 1\/3--lap-and-up \">\n   <div class=\"icon-text\">\n    <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0552\/4180\/1913\/files\/Dollor.png?v=1616502311\">\n    <p>Competitive commission for both leads and sales<\/p>\n   <\/div>\n  <\/div>\n\n  <div class=\"Grid__Cell 1\/0--tablet 1\/3--lap-and-up \">\n   <div class=\"icon-text\">\n    <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0552\/4180\/1913\/files\/Time.png?v=1616502311\">\n    <p>30 day cookie from the original click<\/p>\n   <\/div>\n  <\/div>\n\n  <div class=\"Grid__Cell 1\/0--tablet 1\/3--lap-and-up \">\n   <div class=\"icon-text\">\n    <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0552\/4180\/1913\/files\/Smile.png?v=1616502311\">\n    <p>Easy sign up, content curation, tracking, and payment<\/p>\n   <\/div>\n  <\/div>\n<\/div>",
+          "button_label": "",
+          "show_parallax": false
+        }
+      },
+      "Affiliate_Network-custom-html2": {
+        "type": "Affiliate_Network-custom-html2",
+        "settings": {
+          "subheading": "",
+          "title": "",
+          "html": "<h2 class=\"SectionHeader__Heading Heading u-h1\">Question not answered here?<\/h2><p>Contact <a style=\"background-color: #f9f9f9;\" href=\"mailto:support@casaza.com\">affiliates@casaza.com.<\/a><\/p>"
+        }
+      },
+      "Affiliate_Network-page-faq": {
+        "type": "Affiliate_Network-page-faq",
+        "blocks": {
+          "Affiliate_Network-page-faq-1": {
+            "type": "question",
+            "settings": {
+              "title": "<b>How do I join Casaza’s Affiliate Network?<\/b>",
+              "answer": "<p>You can <a href=\"https:\/\/www.shareasale.com\/shareasale.cfm?merchantID=84366\" target=\"_blank\">apply here<\/a>.<\/p>"
+            }
+          },
+          "Affiliate_Network-page-faq-2": {
+            "type": "question",
+            "settings": {
+              "title": "<b>Is there a cost associated with becoming an affiliate?<\/b>",
+              "answer": "<p>No, you can apply for free. Once accepted, you can start earning money right away.<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "Affiliate_Network-page-faq-1",
+          "Affiliate_Network-page-faq-2"
+        ],
+        "settings": {
+          "Title": "Frequently Asked Questions"
+        }
+      },
+      "press-text-with-image": {
+        "type": "press-text-with-image",
+        "settings": {
+          "section_size": "small",
+          "image": "shopify:\/\/shop_images\/1_cbdd76d8-244d-48f8-b23c-b4591049365d.jpg",
+          "text_color": "#ffffff",
+          "overlay_color": "#000000",
+          "overlay_opacity": 0,
+          "subheading": "",
+          "title": "Media Room",
+          "content": "Get the scoop on what’s new and what’s next on Casaza!"
+        }
+      },
+      "Talking": {
+        "type": "Talking",
+        "blocks": {
+          "f9c687b2-d115-46e7-a9b0-df2cd74c1974": {
+            "type": "text",
+            "settings": {
+              "text": "<div class=\"inner-box\">\n  <div class=\"elementor-testimonial-content\">\n    \"The Scotts have simplified (the home design) process. With every new phase they roll out on the platform, another issue will be tackled for homeowners.” \n  <\/div>\n  <div class=\"elementor-testimonial-meta-inner\">\n    <div class=\"elementor-testimonial-image\">\n      <img width=\"300\" height=\"300\" src=\"\/\/cdn.shopify.com\/s\/files\/1\/0552\/4180\/1913\/files\/hb.png?v=1615872149\" class=\"attachment-full size-full\" alt=\"House Beautiful logo\"> \n    <\/div>\n    <div class=\"elementor-testimonial-details\">\n      <div class=\"elementor-testimonial-name\">House Beautiful<\/div>\n    <\/div>\n  <\/div>\n<\/div>"
+            }
+          },
+          "ffc71f45-dabb-49a9-947d-1ebed16a9833": {
+            "type": "text",
+            "settings": {
+              "text": "<div class=\"inner-box\">\n  <div class=\"elementor-testimonial-content\">\n   \"The Property Brothers are here to help you refresh your digs and make your drab NYC apartment feel much more homey.” ​\n\n  <\/div>\n  <div class=\"elementor-testimonial-meta-inner\">\n    <div class=\"elementor-testimonial-image\">\n      <img width=\"300\" height=\"300\" src=\"\/\/cdn.shopify.com\/s\/files\/1\/0552\/4180\/1913\/files\/time-out.png?v=1615872123\" class=\"attachment-full size-full\" alt=\"House Beautiful logo\"> \n    <\/div>\n    <div class=\"elementor-testimonial-details\">\n      <div class=\"elementor-testimonial-name\">\t\nTime Out New York<\/div>\n    <\/div>\n  <\/div>\n<\/div>"
+            }
+          },
+          "9d3a71aa-6461-4852-aa6f-5c602e42549a": {
+            "type": "text",
+            "settings": {
+              "text": "<div class=\"inner-box\">\n  <div class=\"elementor-testimonial-content\">\n    \"With Pinterest-meets-e-design vibes, the platform is meant to simplify the transformation process by assisting the project from start to finish.” ​\n  <\/div>\n  <div class=\"elementor-testimonial-meta-inner\">\n    <div class=\"elementor-testimonial-image\">\n      <img width=\"300\" height=\"300\" src=\"\/\/cdn.shopify.com\/s\/files\/1\/0552\/4180\/1913\/files\/Designer-Profile-3.png?v=1615872137\" class=\"attachment-full size-full\" alt=\"House Beautiful logo\"> \n    <\/div>\n    <div class=\"elementor-testimonial-details\">\n      <div class=\"elementor-testimonial-name\">Apartment Therapy<\/div>\n    <\/div>\n  <\/div>\n<\/div>"
+            }
+          }
+        },
+        "block_order": [
+          "f9c687b2-d115-46e7-a9b0-df2cd74c1974",
+          "ffc71f45-dabb-49a9-947d-1ebed16a9833",
+          "9d3a71aa-6461-4852-aa6f-5c602e42549a"
+        ],
+        "settings": {
+          "title": "Look Who's Talking",
+          "text": "<p>As seen on The TODAY Show, Forbes, CNET, FOX Business, Buzzfeed, Domino, The Daily Beast, Yahoo!, New York Post, Vox, PureWow, Cheddar, Cottages and Gardens, Men’s Health, AM New York, Retail Dive, and more!<\/p>"
+        }
+      },
+      "press-blog-posts": {
+        "type": "press-blog-posts",
+        "blocks": {
+          "cffd48ae-31c4-43a9-a228-3627d98e39b1": {
+            "type": "blog",
+            "settings": {
+              "blog": "press"
+            }
+          }
+        },
+        "block_order": [
+          "cffd48ae-31c4-43a9-a228-3627d98e39b1"
+        ],
+        "settings": {
+          "subheading": "",
+          "title": "Press Releases",
+          "show_category": false,
+          "button_text": ""
+        }
+      },
+      "press-custom-html": {
+        "type": "press-custom-html",
+        "settings": {
+          "subheading": "",
+          "title": "",
+          "html": "<h2 class=\"SectionHeader__Heading Heading u-h1\">For any press related inquiries:<\/h2><br>\n<a href=\"mailto:%20marketing@casaza.com\">marketing@casaza.com<\/a>"
+        }
+      },
+      "16216194457029d5b3": {
+        "type": "blog-posts",
+        "blocks": {
+          "1621619445ecd363a9-0": {
+            "type": "blog",
+            "settings": {
+              "blog": "house-of-casaza-1"
+            }
+          }
+        },
+        "block_order": [
+          "1621619445ecd363a9-0"
+        ],
+        "settings": {
+          "subheading": "",
+          "title": "Room Inspiration",
+          "show_category": false,
+          "button_link": "shopify:\/\/blogs\/get-inspired-1",
+          "button_text": "View all Inspiration"
+        }
+      },
+      "1621628201715ad2aa": {
+        "type": "Affiliate_Network-text-with-image2",
+        "settings": {
+          "subheading": "",
+          "title": "About Casaza",
+          "image": "shopify:\/\/shop_images\/Brothers_1200x1200_a04489cd-26e9-4354-be12-87aaef279954.png",
+          "image_position": "left",
+          "content": "<p>Casaza is a designer-led destination by Drew and Jonathan Scott to find inspiration and everything you need to renovate and rejuvenate your space. Discover industry-leading professionals, get inspired by home designs spanning styles and budgets, and shop your new favorite products, all in one place.<\/p>",
+          "link_text": "",
+          "link_url": ""
+        }
+      },
+      "blog-template": {
+        "type": "blog-template",
+        "settings": {
+          "show_rss": false,
+          "show_tags": false,
+          "show_featured_article": true,
+          "show_category": false
+        }
+      },
+      "shop-now": {
+        "type": "shop-now",
+        "settings": {
+          "show_section": false,
+          "title": "Shop now",
+          "collection": "",
+          "grid_items_count": 6,
+          "show_product_info": true,
+          "show_vendor": false,
+          "show_color_swatch": false
+        }
+      },
+      "article-template": {
+        "type": "article-template",
+        "settings": {
+          "show_article_image": false,
+          "show_date": true,
+          "show_category": false,
+          "show_author": false,
+          "show_share_buttons": false
+        }
+      },
+      "list-collections-template": {
+        "type": "list-collections-template",
+        "blocks": {
+          "4f1320a7-1869-48ba-94c4-a503e30a982d": {
+            "type": "collection",
+            "settings": {
+              "collection": "living",
+              "image": "shopify:\/\/shop_images\/Kate_s_Reveal.png",
+              "image_alignment": "center left",
+              "content_position": "bottomLeft",
+              "subheading": "",
+              "title": "",
+              "button_text": "Shop"
+            }
+          },
+          "17cb6074-06dd-471c-9b00-164e41a06827": {
+            "type": "collection",
+            "settings": {
+              "collection": "kitchen-dining",
+              "image_alignment": "center left",
+              "content_position": "bottomLeft",
+              "subheading": "",
+              "title": "Kitchen & Dining",
+              "button_text": "Shop"
+            }
+          },
+          "f4e22032-73b0-4844-a096-2a05726f3846": {
+            "type": "collection",
+            "settings": {
+              "collection": "bed-bath-1",
+              "image": "shopify:\/\/shop_images\/Coastal_Chic_Bedroom.jpg",
+              "image_alignment": "center center",
+              "content_position": "bottomLeft",
+              "subheading": "",
+              "title": "Bed & Bath",
+              "button_text": "SHOP"
+            }
+          },
+          "1e9b3f36-5e1d-485c-94b8-63c4c01370c8": {
+            "type": "collection",
+            "settings": {
+              "collection": "outdoor-1",
+              "image_alignment": "center center",
+              "content_position": "bottomLeft",
+              "subheading": "",
+              "title": "Outdoor",
+              "button_text": "SHOP"
+            }
+          },
+          "5168aaff-93e9-470e-8379-53ad9502b72b": {
+            "type": "collection",
+            "settings": {
+              "collection": "office",
+              "image_alignment": "center center",
+              "content_position": "bottomLeft",
+              "subheading": "",
+              "title": "Office",
+              "button_text": "SHOP"
+            }
+          },
+          "9498a6a8-79d6-40e6-bdd6-9943d656766d": {
+            "type": "collection",
+            "settings": {
+              "collection": "art-decor-1",
+              "image": "shopify:\/\/shop_images\/Sonja_Morgan_s_NYC_Apartment_Revamp.jpg",
+              "image_alignment": "center center",
+              "content_position": "bottomLeft",
+              "subheading": "",
+              "title": "Art & Decor",
+              "button_text": "SHOP"
+            }
+          },
+          "bb408183-91ac-431d-a1f0-760588b68d50": {
+            "type": "collection",
+            "settings": {
+              "collection": "lighting",
+              "image_alignment": "center center",
+              "content_position": "bottomLeft",
+              "subheading": "",
+              "title": "Lighting",
+              "button_text": "SHOP"
+            }
+          },
+          "ed30f254-a333-4825-90fe-4661e149481a": {
+            "type": "collection",
+            "settings": {
+              "collection": "rugs",
+              "image": "shopify:\/\/shop_images\/Modern_Ranch_Living.jpg",
+              "image_alignment": "center center",
+              "content_position": "bottomLeft",
+              "subheading": "",
+              "title": "Rugs",
+              "button_text": "SHOP"
+            }
+          }
+        },
+        "block_order": [
+          "4f1320a7-1869-48ba-94c4-a503e30a982d",
+          "17cb6074-06dd-471c-9b00-164e41a06827",
+          "f4e22032-73b0-4844-a096-2a05726f3846",
+          "1e9b3f36-5e1d-485c-94b8-63c4c01370c8",
+          "5168aaff-93e9-470e-8379-53ad9502b72b",
+          "9498a6a8-79d6-40e6-bdd6-9943d656766d",
+          "bb408183-91ac-431d-a1f0-760588b68d50",
+          "ed30f254-a333-4825-90fe-4661e149481a"
+        ],
+        "settings": {
+          "collections_to_show": "selected",
+          "image_size": "small",
+          "add_spacing": true,
+          "expand_collection": false,
+          "apply_overlay": false,
+          "text_color": "#ffffff",
+          "button_color": "#363636"
+        }
+      },
+      "image-with-text-block-collection": {
+        "type": "image-with-text-block-collection",
+        "blocks": {
+          "cea84485-6f9f-440e-a950-2db681104f06": {
+            "type": "image",
+            "settings": {
+              "img": "shopify:\/\/shop_images\/Living_a6e806a5-57b8-4464-846d-86397d5d9c5b.png",
+              "text": "Living",
+              "link": "shopify:\/\/pages\/shop-living-collections"
+            }
+          },
+          "a2df065a-57cf-4d5c-9bf0-76f0c5b3ec62": {
+            "type": "image",
+            "settings": {
+              "img": "shopify:\/\/shop_images\/Kitchen_Dining.png",
+              "text": "Kitchen & Dining",
+              "link": "shopify:\/\/pages\/kitchen-dining"
+            }
+          },
+          "dcf40f93-e495-409b-965c-80e75add10bc": {
+            "type": "image",
+            "settings": {
+              "img": "shopify:\/\/shop_images\/Bed_Bath.png",
+              "text": "Bed & Bath",
+              "link": "shopify:\/\/pages\/bed-bath"
+            }
+          },
+          "bd3da863-240c-4353-8912-3703825793ec": {
+            "type": "image",
+            "settings": {
+              "img": "shopify:\/\/shop_images\/Outdoor.png",
+              "text": "Outdoor",
+              "link": "shopify:\/\/pages\/outdoor"
+            }
+          },
+          "a3edfad8-26dc-4b12-9cc5-0990f176ef6c": {
+            "type": "image",
+            "settings": {
+              "img": "shopify:\/\/shop_images\/Office.png",
+              "text": "Office",
+              "link": "shopify:\/\/pages\/office"
+            }
+          },
+          "d051841a-89f6-4895-97f4-cd6f3de09c4f": {
+            "type": "image",
+            "settings": {
+              "img": "shopify:\/\/shop_images\/Art_Decor.png",
+              "text": "Art & Decor",
+              "link": "shopify:\/\/pages\/art-decor"
+            }
+          },
+          "8200f788-1de7-4f06-bc23-3083ce856343": {
+            "type": "image",
+            "settings": {
+              "img": "shopify:\/\/shop_images\/Lighting.png",
+              "text": "Lighting",
+              "link": "shopify:\/\/pages\/lighting"
+            }
+          },
+          "c9e7c894-9ef9-4726-a418-053d49a30e43": {
+            "type": "image",
+            "settings": {
+              "img": "shopify:\/\/shop_images\/Rugs.png",
+              "text": "Rugs",
+              "link": "shopify:\/\/pages\/rugs"
+            }
+          }
+        },
+        "block_order": [
+          "cea84485-6f9f-440e-a950-2db681104f06",
+          "a2df065a-57cf-4d5c-9bf0-76f0c5b3ec62",
+          "dcf40f93-e495-409b-965c-80e75add10bc",
+          "bd3da863-240c-4353-8912-3703825793ec",
+          "a3edfad8-26dc-4b12-9cc5-0990f176ef6c",
+          "d051841a-89f6-4895-97f4-cd6f3de09c4f",
+          "8200f788-1de7-4f06-bc23-3083ce856343",
+          "c9e7c894-9ef9-4726-a418-053d49a30e43"
+        ],
+        "settings": {}
+      },
+      "LIVING": {
+        "type": "LIVING",
+        "blocks": {
+          "add2f2bf-b4dc-499d-a393-d598d851b176": {
+            "type": "image",
+            "settings": {
+              "img": "shopify:\/\/shop_images\/Accent_Chairs.png",
+              "text": "Accent Chairs",
+              "link": "shopify:\/\/collections\/accent-chairs"
+            }
+          },
+          "de5effbc-3ba5-4775-97fc-1f7a9aa81765": {
+            "type": "image",
+            "settings": {
+              "img": "shopify:\/\/shop_images\/Benches.png",
+              "text": "Benches",
+              "link": "shopify:\/\/collections\/benches"
+            }
+          },
+          "2d5dc4a8-6f50-4171-9c52-b42878cdc579": {
+            "type": "image",
+            "settings": {
+              "img": "shopify:\/\/shop_images\/Chaise_Lounge.png",
+              "text": "Chaise Lounge",
+              "link": "shopify:\/\/collections\/chaise-lounge"
+            }
+          },
+          "e59ac57b-38b0-4521-b8c9-294836b8e599": {
+            "type": "image",
+            "settings": {
+              "img": "shopify:\/\/shop_images\/Coffee_Tables.png",
+              "text": "Coffee Tables",
+              "link": "shopify:\/\/collections\/coffee-tables"
+            }
+          },
+          "1b2cc094-dd98-4c2c-847a-20371fcb4e6c": {
+            "type": "image",
+            "settings": {
+              "img": "shopify:\/\/shop_images\/Screen_Shot_2022-03-28_at_9.02.39_PM.png",
+              "text": "Console Tables & Cabinets",
+              "link": "shopify:\/\/collections\/console-tables-cabinets"
+            }
+          },
+          "baee8170-2656-4a11-a748-fb3416577626": {
+            "type": "image",
+            "settings": {
+              "img": "shopify:\/\/shop_images\/End_Side_Tables.png",
+              "text": "End & Side Tables",
+              "link": "shopify:\/\/collections\/end-side-tables"
+            }
+          },
+          "9a38ac8b-dcd0-4941-99c3-714514e54555": {
+            "type": "image",
+            "settings": {
+              "img": "shopify:\/\/shop_images\/Home_Storage.png",
+              "text": "Home Storage",
+              "link": "shopify:\/\/collections\/home-storage"
+            }
+          },
+          "4be157bb-ebab-4d19-bfcc-8175f398341b": {
+            "type": "image",
+            "settings": {
+              "img": "shopify:\/\/shop_images\/Living_Room_Sets.png",
+              "text": "Living Room Sets",
+              "link": "shopify:\/\/collections\/living-room-sets"
+            }
+          },
+          "c6e69b5f-69e3-4f36-a4cb-109d96d538f1": {
+            "type": "image",
+            "settings": {
+              "img": "shopify:\/\/shop_images\/Screen_Shot_2022-03-28_at_9.07.15_PM.png",
+              "text": "Ottomans & Footstools",
+              "link": "shopify:\/\/collections\/ottomans-footstools"
+            }
+          },
+          "090df769-31b3-4dce-90ec-7fd70d0b0182": {
+            "type": "image",
+            "settings": {
+              "img": "shopify:\/\/shop_images\/Screen_Shot_2022-03-28_at_9.07.56_PM.png",
+              "text": "Sectionals",
+              "link": "shopify:\/\/collections\/sectionals"
+            }
+          },
+          "757943fd-4c3f-463e-85e1-ed402e38d1a0": {
+            "type": "image",
+            "settings": {
+              "img": "shopify:\/\/shop_images\/Screen_Shot_2022-03-28_at_9.08.07_PM.png",
+              "text": "Sofas & Loveseats",
+              "link": "shopify:\/\/collections\/sofas-loveseats"
+            }
+          },
+          "35f8c0ec-ab67-43e4-8dbc-1b45f3d767ea": {
+            "type": "image",
+            "settings": {
+              "img": "shopify:\/\/shop_images\/Screen_Shot_2022-03-28_at_9.08.19_PM.png",
+              "text": "Shelves",
+              "link": "shopify:\/\/collections\/shelves"
+            }
+          }
+        },
+        "block_order": [
+          "add2f2bf-b4dc-499d-a393-d598d851b176",
+          "de5effbc-3ba5-4775-97fc-1f7a9aa81765",
+          "2d5dc4a8-6f50-4171-9c52-b42878cdc579",
+          "e59ac57b-38b0-4521-b8c9-294836b8e599",
+          "1b2cc094-dd98-4c2c-847a-20371fcb4e6c",
+          "baee8170-2656-4a11-a748-fb3416577626",
+          "9a38ac8b-dcd0-4941-99c3-714514e54555",
+          "4be157bb-ebab-4d19-bfcc-8175f398341b",
+          "c6e69b5f-69e3-4f36-a4cb-109d96d538f1",
+          "090df769-31b3-4dce-90ec-7fd70d0b0182",
+          "757943fd-4c3f-463e-85e1-ed402e38d1a0",
+          "35f8c0ec-ab67-43e4-8dbc-1b45f3d767ea"
+        ],
+        "settings": {}
+      },
+      "Kitchen-and-Dining": {
+        "type": "Kitchen-and-Dining",
+        "blocks": {
+          "5554d9ca-25a2-4ed5-a31e-2a7ff0f06dbe": {
+            "type": "image",
+            "settings": {
+              "img": "shopify:\/\/shop_images\/Screen_Shot_2022-03-28_at_9.10.21_PM.png",
+              "text": "Bar Carts",
+              "link": "shopify:\/\/collections\/bar-carts"
+            }
+          },
+          "3b61f559-7308-4d4c-8ae8-d192b765c83d": {
+            "type": "image",
+            "settings": {
+              "img": "shopify:\/\/shop_images\/Screen_Shot_2022-03-28_at_9.10.42_PM.png",
+              "text": "Dining Chairs",
+              "link": "shopify:\/\/collections\/dining-chairs"
+            }
+          },
+          "ff82b2f6-724f-4fb6-9ef0-fd4ba6e5aebb": {
+            "type": "image",
+            "settings": {
+              "img": "shopify:\/\/shop_images\/Screen_Shot_2022-03-28_at_9.11.35_PM.png",
+              "text": "Dining Tables",
+              "link": "shopify:\/\/collections\/dining-tables"
+            }
+          },
+          "85f227f8-c4b0-4f91-b896-fe5da50f4cf7": {
+            "type": "image",
+            "settings": {
+              "img": "shopify:\/\/shop_images\/Screen_Shot_2022-03-28_at_9.12.10_PM.png",
+              "text": "Kitchen Accessories",
+              "link": "shopify:\/\/collections\/kitchen-accessories"
+            }
+          },
+          "a068140d-163c-408a-8ece-4ff7b2b77a27": {
+            "type": "image",
+            "settings": {
+              "img": "shopify:\/\/shop_images\/Screen_Shot_2022-03-28_at_9.12.36_PM.png",
+              "text": "Sideboards & Credenzas",
+              "link": "shopify:\/\/collections\/sideboards-credenzas"
+            }
+          },
+          "5fba96e2-929c-4edc-9718-7fe2af0f6471": {
+            "type": "image",
+            "settings": {
+              "img": "shopify:\/\/shop_images\/Screen_Shot_2022-03-28_at_9.12.49_PM.png",
+              "text": "Stools",
+              "link": "shopify:\/\/collections\/stools"
+            }
+          }
+        },
+        "block_order": [
+          "5554d9ca-25a2-4ed5-a31e-2a7ff0f06dbe",
+          "3b61f559-7308-4d4c-8ae8-d192b765c83d",
+          "ff82b2f6-724f-4fb6-9ef0-fd4ba6e5aebb",
+          "85f227f8-c4b0-4f91-b896-fe5da50f4cf7",
+          "a068140d-163c-408a-8ece-4ff7b2b77a27",
+          "5fba96e2-929c-4edc-9718-7fe2af0f6471"
+        ],
+        "settings": {}
+      },
+      "Bed-and-Bath": {
+        "type": "Bed-and-Bath",
+        "blocks": {
+          "e5fbc8bf-80bf-4a4c-8e09-8d587c0c65bc": {
+            "type": "image",
+            "settings": {
+              "img": "shopify:\/\/shop_images\/Screen_Shot_2022-03-28_at_9.15.33_PM.png",
+              "text": "Bathroom Accessories",
+              "link": "shopify:\/\/collections\/bathroom-accessories"
+            }
+          },
+          "f14738c4-fae1-4f34-8bfe-d126abfdecd1": {
+            "type": "image",
+            "settings": {
+              "img": "shopify:\/\/shop_images\/Screen_Shot_2022-03-28_at_9.15.58_PM.png",
+              "text": "Beds",
+              "link": "shopify:\/\/collections\/beds"
+            }
+          },
+          "22d8b52b-c699-4ea3-9f74-cae0d49f7a55": {
+            "type": "image",
+            "settings": {
+              "img": "shopify:\/\/shop_images\/Screen_Shot_2022-03-28_at_9.16.09_PM.png",
+              "text": "Bedding",
+              "link": "shopify:\/\/collections\/bedding"
+            }
+          },
+          "86241e79-3fa0-454c-b444-3c6bb1cbbec9": {
+            "type": "image",
+            "settings": {
+              "img": "shopify:\/\/shop_images\/Screen_Shot_2022-03-28_at_9.16.51_PM.png",
+              "text": "Dressers",
+              "link": "shopify:\/\/collections\/dressers"
+            }
+          },
+          "b3e9f6bf-6511-4a76-8dbb-e5fa3c06f37a": {
+            "type": "image",
+            "settings": {
+              "img": "shopify:\/\/shop_images\/Screen_Shot_2022-03-28_at_9.17.16_PM.png",
+              "text": "Headboards",
+              "link": "shopify:\/\/collections\/headboards"
+            }
+          },
+          "feac414d-3c05-4924-a852-a83b4eda3601": {
+            "type": "image",
+            "settings": {
+              "img": "shopify:\/\/shop_images\/Screen_Shot_2022-03-28_at_9.17.30_PM.png",
+              "text": "Mattresses",
+              "link": "shopify:\/\/collections\/mattresses"
+            }
+          },
+          "6ce7cb85-e3f1-4235-90de-a6e9af52276b": {
+            "type": "image",
+            "settings": {
+              "img": "shopify:\/\/shop_images\/Screen_Shot_2022-03-28_at_9.17.53_PM.png",
+              "text": "Nightstands",
+              "link": "shopify:\/\/collections\/nightstands"
+            }
+          }
+        },
+        "block_order": [
+          "e5fbc8bf-80bf-4a4c-8e09-8d587c0c65bc",
+          "f14738c4-fae1-4f34-8bfe-d126abfdecd1",
+          "22d8b52b-c699-4ea3-9f74-cae0d49f7a55",
+          "86241e79-3fa0-454c-b444-3c6bb1cbbec9",
+          "b3e9f6bf-6511-4a76-8dbb-e5fa3c06f37a",
+          "feac414d-3c05-4924-a852-a83b4eda3601",
+          "6ce7cb85-e3f1-4235-90de-a6e9af52276b"
+        ],
+        "settings": {}
+      },
+      "Outdoor": {
+        "type": "Outdoor",
+        "blocks": {
+          "6f56a553-e6f1-4443-9e7c-0902016894bb": {
+            "type": "image",
+            "settings": {
+              "img": "shopify:\/\/shop_images\/Screen_Shot_2022-03-28_at_9.22.13_PM.png",
+              "text": "Daybeds",
+              "link": "shopify:\/\/collections\/daybeds"
+            }
+          },
+          "5d7bf6dd-3bcf-4514-9c56-d8b085552c69": {
+            "type": "image",
+            "settings": {
+              "img": "shopify:\/\/shop_images\/Screen_Shot_2022-03-28_at_9.22.33_PM.png",
+              "text": "Outdoor Sets",
+              "link": "shopify:\/\/collections\/outdoor-sets"
+            }
+          },
+          "93c49203-b144-4ff1-91e9-0d14cc7e2db4": {
+            "type": "image",
+            "settings": {
+              "img": "shopify:\/\/shop_images\/Screen_Shot_2022-03-28_at_9.23.13_PM.png",
+              "text": "Patio Dining",
+              "link": "shopify:\/\/collections\/patio-dining"
+            }
+          },
+          "e0719548-3c10-4f51-96ee-9b2895a623e1": {
+            "type": "image",
+            "settings": {
+              "img": "shopify:\/\/shop_images\/Screen_Shot_2022-03-28_at_9.23.28_PM.png",
+              "text": "Patio Seating",
+              "link": "shopify:\/\/collections\/patio-seating"
+            }
+          }
+        },
+        "block_order": [
+          "6f56a553-e6f1-4443-9e7c-0902016894bb",
+          "5d7bf6dd-3bcf-4514-9c56-d8b085552c69",
+          "93c49203-b144-4ff1-91e9-0d14cc7e2db4",
+          "e0719548-3c10-4f51-96ee-9b2895a623e1"
+        ],
+        "settings": {}
+      },
+      "Office": {
+        "type": "Office",
+        "blocks": {
+          "44d15c6f-f36d-4f04-a8a8-305d0080e92b": {
+            "type": "text",
+            "settings": {
+              "img": "shopify:\/\/shop_images\/Screen_Shot_2022-03-28_at_9.25.34_PM.png",
+              "text": "Office Accessories",
+              "link": "shopify:\/\/collections\/office-accessories"
+            }
+          },
+          "c2533b82-b87e-4c26-ae42-004f024614a2": {
+            "type": "text",
+            "settings": {
+              "img": "shopify:\/\/shop_images\/Screen_Shot_2022-03-28_at_9.25.48_PM.png",
+              "text": "Office Chairs",
+              "link": "shopify:\/\/collections\/office-chairs"
+            }
+          },
+          "cbfa0653-2d86-487c-ac2a-743a86be275b": {
+            "type": "text",
+            "settings": {
+              "img": "shopify:\/\/shop_images\/Screen_Shot_2022-03-28_at_9.26.38_PM.png",
+              "text": "Office Desks",
+              "link": "shopify:\/\/collections\/office-desks"
+            }
+          },
+          "43019ef3-6419-48b0-9169-0096e155c544": {
+            "type": "text",
+            "settings": {
+              "img": "shopify:\/\/shop_images\/Screen_Shot_2022-03-28_at_9.27.36_PM.png",
+              "text": "Cabinets & Chests",
+              "link": "shopify:\/\/collections\/cabinets-chests"
+            }
+          }
+        },
+        "block_order": [
+          "44d15c6f-f36d-4f04-a8a8-305d0080e92b",
+          "c2533b82-b87e-4c26-ae42-004f024614a2",
+          "cbfa0653-2d86-487c-ac2a-743a86be275b",
+          "43019ef3-6419-48b0-9169-0096e155c544"
+        ],
+        "settings": {}
+      },
+      "Art-and-Decor": {
+        "type": "Art-and-Decor",
+        "blocks": {
+          "3a907926-ed8e-45cd-93e4-071486464da6": {
+            "type": "image",
+            "settings": {
+              "img": "shopify:\/\/shop_images\/Screen_Shot_2022-03-28_at_9.30.30_PM.png",
+              "text": "Art",
+              "link": "shopify:\/\/collections\/art-1"
+            }
+          },
+          "a177b1e5-1511-4725-b55b-b5be69fb15ee": {
+            "type": "image",
+            "settings": {
+              "img": "shopify:\/\/shop_images\/Screen_Shot_2022-03-28_at_9.30.46_PM.png",
+              "text": "Accessories",
+              "link": "shopify:\/\/collections\/accessories"
+            }
+          },
+          "50fc2840-6e49-458a-8a74-a78f77988eb7": {
+            "type": "image",
+            "settings": {
+              "img": "shopify:\/\/shop_images\/Screen_Shot_2022-03-28_at_9.30.59_PM.png",
+              "text": "Baskets & Boxes",
+              "link": "shopify:\/\/collections\/baskets-boxes"
+            }
+          },
+          "98f879d1-fbdc-47b0-a191-5fd84d3a1e7b": {
+            "type": "image",
+            "settings": {
+              "img": "shopify:\/\/shop_images\/Screen_Shot_2022-03-28_at_9.41.46_PM.png",
+              "text": "Candles & Candle Holders",
+              "link": "shopify:\/\/collections\/candles-candle-holders"
+            }
+          },
+          "7d105f67-0156-4ab5-9f7f-0119b0b45ee9": {
+            "type": "image",
+            "settings": {
+              "img": "shopify:\/\/shop_images\/Screen_Shot_2022-03-28_at_9.31.39_PM.png",
+              "text": "Clocks",
+              "link": "shopify:\/\/collections\/clocks"
+            }
+          },
+          "6ea13592-32de-4247-bd42-153e1ae7315d": {
+            "type": "image",
+            "settings": {
+              "img": "shopify:\/\/shop_images\/Screen_Shot_2022-03-28_at_9.32.14_PM.png",
+              "text": "Figurines & Sculptures",
+              "link": "shopify:\/\/collections\/figurines-sculptures"
+            }
+          },
+          "e00f1052-680c-48b7-9b0b-de9991928f7a": {
+            "type": "image",
+            "settings": {
+              "img": "shopify:\/\/shop_images\/Screen_Shot_2022-03-28_at_9.32.30_PM.png",
+              "text": "Mirrors",
+              "link": "shopify:\/\/collections\/mirrors"
+            }
+          },
+          "9aa1f4f6-810e-4265-919b-e4af508d37ca": {
+            "type": "image",
+            "settings": {
+              "img": "shopify:\/\/shop_images\/Screen_Shot_2022-03-28_at_9.32.51_PM.png",
+              "text": "Throw Pillows",
+              "link": "shopify:\/\/collections\/throw-pillows"
+            }
+          },
+          "c2cf3e37-7559-4e63-9966-c485e491d67f": {
+            "type": "image",
+            "settings": {
+              "img": "shopify:\/\/shop_images\/Screen_Shot_2022-03-28_at_9.33.34_PM.png",
+              "text": "Vases Pots & Planters",
+              "link": "shopify:\/\/collections\/vases-pots-planters"
+            }
+          },
+          "a920a355-0f75-49bd-94f1-3e93c0e4aa61": {
+            "type": "image",
+            "settings": {
+              "img": "shopify:\/\/shop_images\/Screen_Shot_2022-03-28_at_9.33.57_PM.png",
+              "text": "Wallpaper",
+              "link": "shopify:\/\/collections\/wallpaper"
+            }
+          }
+        },
+        "block_order": [
+          "3a907926-ed8e-45cd-93e4-071486464da6",
+          "a177b1e5-1511-4725-b55b-b5be69fb15ee",
+          "50fc2840-6e49-458a-8a74-a78f77988eb7",
+          "98f879d1-fbdc-47b0-a191-5fd84d3a1e7b",
+          "7d105f67-0156-4ab5-9f7f-0119b0b45ee9",
+          "6ea13592-32de-4247-bd42-153e1ae7315d",
+          "e00f1052-680c-48b7-9b0b-de9991928f7a",
+          "9aa1f4f6-810e-4265-919b-e4af508d37ca",
+          "c2cf3e37-7559-4e63-9966-c485e491d67f",
+          "a920a355-0f75-49bd-94f1-3e93c0e4aa61"
+        ],
+        "settings": {}
+      },
+      "Lighting": {
+        "type": "Lighting",
+        "blocks": {
+          "fbe46f54-ded2-4d91-8c0c-0bdb11aaf61e": {
+            "type": "image",
+            "settings": {
+              "img": "shopify:\/\/shop_images\/Screen_Shot_2022-03-28_at_9.37.23_PM.png",
+              "text": "Ceiling Lighting",
+              "link": "shopify:\/\/collections\/ceiling-lighting"
+            }
+          },
+          "5ced9f6a-02b8-4ef4-8af1-7b37c4900869": {
+            "type": "image",
+            "settings": {
+              "img": "shopify:\/\/shop_images\/Screen_Shot_2022-03-28_at_9.37.48_PM.png",
+              "text": "Lamps",
+              "link": "shopify:\/\/collections\/lamps"
+            }
+          },
+          "9984748a-4299-4f42-aefd-191fe8992ad3": {
+            "type": "image",
+            "settings": {
+              "img": "shopify:\/\/shop_images\/Screen_Shot_2022-03-28_at_9.38.09_PM.png",
+              "text": "Lighting Fixtures",
+              "link": "shopify:\/\/collections\/lighting-fixtures"
+            }
+          }
+        },
+        "block_order": [
+          "fbe46f54-ded2-4d91-8c0c-0bdb11aaf61e",
+          "5ced9f6a-02b8-4ef4-8af1-7b37c4900869",
+          "9984748a-4299-4f42-aefd-191fe8992ad3"
+        ],
+        "settings": {}
+      },
+      "Rugs": {
+        "type": "Rugs",
+        "blocks": {
+          "2e1f9ce7-5b47-4d3e-bdd0-4694db0de19b": {
+            "type": "image",
+            "settings": {
+              "img": "shopify:\/\/shop_images\/Screen_Shot_2022-03-28_at_9.39.44_PM.png",
+              "text": "Area Rugs",
+              "link": "shopify:\/\/collections\/area-rugs"
+            }
+          }
+        },
+        "block_order": [
+          "2e1f9ce7-5b47-4d3e-bdd0-4694db0de19b"
+        ],
+        "settings": {}
+      },
+      "1654206142e8c8fc65": {
+        "type": "image-with-text-overlay",
+        "disabled": true,
+        "settings": {
+          "section_size": "large",
+          "image": "shopify:\/\/shop_images\/Drew_Jonathan_9a72d08d-56d0-4294-90c4-580f55431759.png",
+          "text_color": "#ffffff",
+          "overlay_color": "#9fcee7",
+          "overlay_opacity": 7,
+          "subheading": "",
+          "title": "",
+          "content": "<p><a href=\"\/pages\/outdoor\" title=\"Outdoor\">\/pages\/outdoor<\/a><\/p>"
+        }
+      }
+    },
+    "content_for_index": [
+      "slideshow",
+      "1654206142e8c8fc65",
+      "161545571758b031b9",
+      "161552423993d69ff4",
+      "1615876615ad668c3f",
+      "16216194457029d5b3",
+      "16154491005771f8c1",
+      "16155246635ab97145",
+      "1621628201715ad2aa",
+      "161546167414bfd699"
+    ]
+  },
+  "presets": {
+    "Allure": {
+      "heading_color": "#1c1b1b",
+      "text_color": "#1c1b1b",
+      "text_light_color": "#6a6a6a",
+      "link_color": "#6a6a6a",
+      "background": "#efefef",
+      "light_background": "#ffffff",
+      "product_on_sale_color": "#f94c43",
+      "button_background": "#1c1b1b",
+      "button_text_color": "#ffffff",
+      "header_background": "#ffffff",
+      "header_heading_color": "#1c1b1b",
+      "header_light_color": "#6a6a6a",
+      "footer_background": "#ffffff",
+      "footer_heading_color": "#1c1b1b",
+      "footer_text_color": "#6a6a6a",
+      "newsletter_popup_background": "#1c1b1b",
+      "newsletter_popup_text_color": "#ffffff",
+      "secondary_elements_background": "#1c1b1b",
+      "secondary_elements_text_color": "#ffffff",
+      "navigation_background": "#1c1b1b",
+      "navigation_text_color": "#ffffff",
+      "heading_font": "montserrat_n5",
+      "heading_size": "small",
+      "uppercase_heading": true,
+      "text_font": "nunito_sans_n4",
+      "base_text_font_size": 14,
+      "show_page_transition": false,
+      "search_mode": "product,article",
+      "product_show_price_on_hover": false,
+      "product_show_secondary_image": false,
+      "product_info_alignment": "center",
+      "product_image_size": "natural",
+      "product_list_horizontal_spacing": "medium",
+      "product_list_vertical_spacing": "small",
+      "cart_type": "drawer",
+      "cart_enable_notes": true,
+      "cart_show_free_shipping_threshold": false,
+      "cart_free_shipping_threshold": "50",
+      "checkout_logo_position": "center",
+      "checkout_logo_size": "small",
+      "checkout_body_background_color": "#ffffff",
+      "checkout_input_background_color_mode": "white",
+      "checkout_sidebar_background_color": "#efefef",
+      "checkout_accent_color": "#1c1b1b",
+      "checkout_button_color": "#1c1b1b",
+      "sections": {
+        "sidebar-menu": {
+          "type": "sidebar-menu",
+          "settings": {
+            "primary_menu": "main-menu",
+            "show_social_media": true
+          }
+        },
+        "announcement": {
+          "type": "announcement",
+          "settings": {
+            "background": "#000000",
+            "text_color": "#ffffff",
+            "content": "Announce something here"
+          }
+        },
+        "header": {
+          "type": "header",
+          "settings": {
+            "use_sticky_header": true,
+            "logo_max_width": 140,
+            "navigation_menu": "main-menu",
+            "navigation_style": "inline",
+            "enable_transparent_header": true,
+            "transparent_text_color": "#ffffff"
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "footer-0": {
+              "type": "text",
+              "settings": {
+                "title": "About the shop",
+                "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme settings.<\/p>",
+                "show_social_media": true
+              }
+            },
+            "footer-1": {
+              "type": "links",
+              "settings": {
+                "menu": "footer"
+              }
+            },
+            "footer-2": {
+              "type": "newsletter",
+              "settings": {
+                "title": "Newsletter",
+                "content": "<p>Subscribe to receive updates, access to exclusive deals, and more.<\/p>"
+              }
+            }
+          },
+          "block_order": [
+            "footer-0",
+            "footer-1",
+            "footer-2"
+          ],
+          "settings": {
+            "show_payment_methods": true
+          }
+        },
+        "slideshow": {
+          "type": "slideshow",
+          "blocks": {
+            "slide-0": {
+              "type": "image",
+              "settings": {
+                "apply_overlay": true,
+                "content_position": "bottomLeft",
+                "subheading": "Slide title",
+                "title": "Tell your story"
+              }
+            },
+            "slide-1": {
+              "type": "image",
+              "settings": {
+                "apply_overlay": true,
+                "content_position": "bottomLeft",
+                "subheading": "Slide title",
+                "title": "Tell your story"
+              }
+            }
+          },
+          "block_order": [
+            "slide-0",
+            "slide-1"
+          ],
+          "settings": {
+            "show_fullscreen": true,
+            "show_arrow": false,
+            "autoplay": true,
+            "cycle_speed": 5,
+            "text_color": "#ffffff",
+            "button_color": "#363636"
+          }
+        },
+        "featured-collections": {
+          "type": "featured-collections",
+          "blocks": {
+            "featured-collection-0": {
+              "type": "collection",
+              "settings": {
+                "grid_items_count": 8,
+                "button_text": "View all products"
+              }
+            }
+          },
+          "block_order": [
+            "featured-collection-0"
+          ],
+          "settings": {
+            "title": "Featured collection",
+            "layout_mode": "grid",
+            "show_product_info": true,
+            "grid_mobile_items_per_row": "2",
+            "grid_desktop_items_per_row": 4
+          }
+        },
+        "collection-list": {
+          "type": "collection-list",
+          "blocks": {
+            "collection-0": {
+              "type": "collection",
+              "settings": {
+                "image_alignment": "center center",
+                "subheading": "Sub-heading",
+                "button_text": "View products",
+                "apply_overlay": true
+              }
+            },
+            "collection-1": {
+              "type": "collection",
+              "settings": {
+                "image_alignment": "center center",
+                "subheading": "Sub-heading",
+                "button_text": "View products",
+                "apply_overlay": true
+              }
+            },
+            "collection-2": {
+              "type": "collection",
+              "settings": {
+                "image_alignment": "center center",
+                "subheading": "Sub-heading",
+                "button_text": "View products",
+                "apply_overlay": true
+              }
+            }
+          },
+          "block_order": [
+            "collection-0",
+            "collection-1",
+            "collection-2"
+          ],
+          "settings": {
+            "add_spacing": true,
+            "expand_collection": false,
+            "text_color": "#ffffff",
+            "button_color": "#363636"
+          }
+        },
+        "featured-product": {
+          "type": "featured-product",
+          "settings": {
+            "title": "Featured product",
+            "show_vendor": true,
+            "show_description": true,
+            "show_color_swatch": false,
+            "show_color_carousel": false,
+            "show_quantity_selector": true,
+            "show_inventory_quantity": false,
+            "inventory_quantity_threshold": 3
+          }
+        },
+        "timeline": {
+          "type": "timeline",
+          "blocks": {
+            "item-0": {
+              "type": "item",
+              "settings": {
+                "apply_overlay": true,
+                "title": "2000",
+                "subheading": "Sub-heading",
+                "heading": "Heading",
+                "content": "<p>Add your own custom content to give more information about your store, availability details...<\/p>"
+              }
+            },
+            "item-1": {
+              "type": "item",
+              "settings": {
+                "apply_overlay": true,
+                "title": "2001",
+                "subheading": "Sub-heading",
+                "heading": "Heading",
+                "content": "<p>Add your own custom content to give more information about your store, availability details...<\/p>"
+              }
+            },
+            "item-2": {
+              "type": "item",
+              "settings": {
+                "apply_overlay": true,
+                "title": "2002",
+                "subheading": "Sub-heading",
+                "heading": "Heading",
+                "content": "<p>Add your own custom content to give more information about your store, availability details...<\/p>"
+              }
+            }
+          },
+          "block_order": [
+            "item-0",
+            "item-1",
+            "item-2"
+          ],
+          "settings": {
+            "text_color": "#ffffff"
+          }
+        },
+        "blog-posts": {
+          "type": "blog-posts",
+          "blocks": {
+            "blog-0": {
+              "type": "blog",
+              "settings": {
+                "blog": "news"
+              }
+            }
+          },
+          "block_order": [
+            "blog-0"
+          ],
+          "settings": {
+            "title": "Featured article",
+            "show_category": false,
+            "button_text": "View all articles"
+          }
+        },
+        "shop-the-look": {
+          "type": "shop-the-look",
+          "blocks": {
+            "look-0": {
+              "type": "look",
+              "settings": {
+                "dot_style": "light",
+                "product_1_horizontal_position": 30,
+                "product_1_vertical_position": 40,
+                "product_2_horizontal_position": 45,
+                "product_2_vertical_position": 65,
+                "product_3_horizontal_position": 70,
+                "product_3_vertical_position": 50
+              }
+            },
+            "look-1": {
+              "type": "look",
+              "settings": {
+                "dot_style": "light",
+                "product_1_horizontal_position": 25,
+                "product_1_vertical_position": 45,
+                "product_2_horizontal_position": 55,
+                "product_2_vertical_position": 30,
+                "product_3_horizontal_position": 65,
+                "product_3_vertical_position": 60
+              }
+            }
+          },
+          "block_order": [
+            "look-0",
+            "look-1"
+          ],
+          "settings": {
+            "subheading": "Shop",
+            "title": "Our looks"
+          }
+        },
+        "collection-template": {
+          "type": "collection-template",
+          "settings": {
+            "show_collection_info": true,
+            "show_collection_image": false,
+            "show_sort_by": true,
+            "show_layout_switch": false,
+            "toolbar_position": "bottom",
+            "filter_position": "sidebar",
+            "filter_mode": "tag",
+            "show_filter_color_swatch": true,
+            "grid_items_per_page": 16,
+            "grid_mobile_items_per_row": "2",
+            "grid_desktop_items_per_row": 4
+          }
+        },
+        "recently-viewed-products": {
+          "type": "recently-viewed-products",
+          "settings": {
+            "show_section": true,
+            "title": "Recently viewed",
+            "show_product_info": true
+          }
+        },
+        "collection-footer": {
+          "type": "collection-footer",
+          "settings": {
+            "show_section": false,
+            "text_color": "#ffffff",
+            "apply_overlay": true,
+            "title": "Our story",
+            "content": "<p>Add your own custom content to explain your processes...<\/p>"
+          }
+        },
+        "product-template": {
+          "type": "product-template",
+          "settings": {
+            "show_share_buttons": true,
+            "show_vendor": true,
+            "show_color_swatch": false,
+            "show_color_carousel": false,
+            "show_quantity_selector": true,
+            "show_inventory_quantity": false,
+            "inventory_quantity_threshold": 3,
+            "image_size": "large",
+            "stack_images": true,
+            "show_thumbnails": false,
+            "enable_image_zoom": true,
+            "reviews_enabled": false
+          }
+        },
+        "product-recommendations": {
+          "type": "product-recommendations",
+          "settings": {
+            "show_product_recommendations": true,
+            "show_product_info": true
+          }
+        }
+      },
+      "content_for_index": [
+        "slideshow",
+        "featured-collections",
+        "collection-list",
+        "featured-product",
+        "timeline",
+        "blog-posts",
+        "shop-the-look"
+      ]
+    },
+    "Couture": {
+      "heading_color": "#5c5c5c",
+      "text_color": "#5c5c5c",
+      "text_light_color": "#939393",
+      "link_color": "#323232",
+      "background": "#ffffff",
+      "light_background": "#ffffff",
+      "product_on_sale_color": "#f94c43",
+      "button_background": "#5c5c5c",
+      "button_text_color": "#ffffff",
+      "header_background": "#ffffff",
+      "header_heading_color": "#5c5c5c",
+      "header_light_color": "#939393",
+      "footer_background": "#ffffff",
+      "footer_heading_color": "#5c5c5c",
+      "footer_text_color": "#939393",
+      "newsletter_popup_background": "#ffffff",
+      "newsletter_popup_text_color": "#1c1b1b",
+      "secondary_elements_background": "#5c5c5c",
+      "secondary_elements_text_color": "#ffffff",
+      "navigation_background": "#ffffff",
+      "navigation_text_color": "#5c5c5c",
+      "heading_font": "futura_n4",
+      "heading_size": "large",
+      "uppercase_heading": false,
+      "text_font": "century_gothic_n4",
+      "base_text_font_size": 15,
+      "show_page_transition": false,
+      "search_mode": "product,article",
+      "product_show_price_on_hover": true,
+      "product_show_secondary_image": false,
+      "product_info_alignment": "left",
+      "product_image_size": "natural",
+      "product_list_horizontal_spacing": "small",
+      "product_list_vertical_spacing": "small",
+      "cart_type": "drawer",
+      "cart_enable_notes": true,
+      "cart_show_free_shipping_threshold": false,
+      "cart_free_shipping_threshold": "50",
+      "checkout_logo_position": "center",
+      "checkout_logo_size": "small",
+      "checkout_body_background_color": "#fff",
+      "checkout_input_background_color_mode": "white",
+      "checkout_sidebar_background_color": "#fafafa",
+      "checkout_accent_color": "#323232",
+      "checkout_button_color": "#5c5c5c",
+      "sections": {
+        "sidebar-menu": {
+          "type": "sidebar-menu",
+          "settings": {
+            "primary_menu": "main-menu",
+            "show_social_media": true
+          }
+        },
+        "announcement": {
+          "type": "announcement",
+          "settings": {
+            "background": "#f3f3f3",
+            "text_color": "#5c5c5c",
+            "content": "Announce something here"
+          }
+        },
+        "header": {
+          "type": "header",
+          "settings": {
+            "use_sticky_header": true,
+            "logo_max_width": 140,
+            "navigation_menu": "main-menu",
+            "navigation_style": "center",
+            "enable_transparent_header": true,
+            "transparent_text_color": "#ffffff"
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "footer-0": {
+              "type": "text",
+              "settings": {
+                "title": "About the shop",
+                "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme settings.<\/p>",
+                "show_social_media": true
+              }
+            },
+            "footer-1": {
+              "type": "links",
+              "settings": {
+                "menu": "footer"
+              }
+            },
+            "footer-2": {
+              "type": "newsletter",
+              "settings": {
+                "title": "Newsletter",
+                "content": "<p>Subscribe to receive updates, access to exclusive deals, and more.<\/p>"
+              }
+            }
+          },
+          "block_order": [
+            "footer-0",
+            "footer-1",
+            "footer-2"
+          ],
+          "settings": {
+            "show_payment_methods": true
+          }
+        },
+        "slideshow": {
+          "type": "slideshow",
+          "blocks": {
+            "slide-0": {
+              "type": "image",
+              "settings": {
+                "apply_overlay": true,
+                "content_position": "bottomLeft",
+                "subheading": "Slide title",
+                "title": "Tell your story"
+              }
+            },
+            "slide-1": {
+              "type": "image",
+              "settings": {
+                "apply_overlay": true,
+                "content_position": "bottomLeft",
+                "subheading": "Slide title",
+                "title": "Tell your story"
+              }
+            }
+          },
+          "block_order": [
+            "slide-0",
+            "slide-1"
+          ],
+          "settings": {
+            "show_fullscreen": true,
+            "show_arrow": false,
+            "autoplay": true,
+            "cycle_speed": 5,
+            "text_color": "#ffffff",
+            "button_color": "#363636"
+          }
+        },
+        "featured-collections": {
+          "type": "featured-collections",
+          "blocks": {
+            "featured-collection-0": {
+              "type": "collection",
+              "settings": {
+                "grid_items_count": 8,
+                "button_text": "View all products"
+              }
+            }
+          },
+          "block_order": [
+            "featured-collection-0"
+          ],
+          "settings": {
+            "title": "Featured collection",
+            "layout_mode": "grid",
+            "show_product_info": true,
+            "grid_mobile_items_per_row": "2",
+            "grid_desktop_items_per_row": 4
+          }
+        },
+        "collection-list": {
+          "type": "collection-list",
+          "blocks": {
+            "collection-0": {
+              "type": "collection",
+              "settings": {
+                "image_alignment": "center center",
+                "subheading": "Sub-heading",
+                "button_text": "View products",
+                "apply_overlay": true
+              }
+            },
+            "collection-1": {
+              "type": "collection",
+              "settings": {
+                "image_alignment": "center center",
+                "subheading": "Sub-heading",
+                "button_text": "View products",
+                "apply_overlay": true
+              }
+            },
+            "collection-2": {
+              "type": "collection",
+              "settings": {
+                "image_alignment": "center center",
+                "subheading": "Sub-heading",
+                "button_text": "View products",
+                "apply_overlay": true
+              }
+            }
+          },
+          "block_order": [
+            "collection-0",
+            "collection-1",
+            "collection-2"
+          ],
+          "settings": {
+            "add_spacing": true,
+            "expand_collection": false,
+            "text_color": "#ffffff",
+            "button_color": "#363636"
+          }
+        },
+        "featured-product": {
+          "type": "featured-product",
+          "settings": {
+            "title": "Featured product",
+            "show_vendor": true,
+            "show_description": true,
+            "show_color_swatch": false,
+            "show_color_carousel": false,
+            "show_quantity_selector": true,
+            "show_inventory_quantity": false,
+            "inventory_quantity_threshold": 3
+          }
+        },
+        "timeline": {
+          "type": "timeline",
+          "blocks": {
+            "item-0": {
+              "type": "item",
+              "settings": {
+                "apply_overlay": true,
+                "title": "2000",
+                "subheading": "Sub-heading",
+                "heading": "Heading",
+                "content": "<p>Add your own custom content to give more information about your store, availability details...<\/p>"
+              }
+            },
+            "item-1": {
+              "type": "item",
+              "settings": {
+                "apply_overlay": true,
+                "title": "2001",
+                "subheading": "Sub-heading",
+                "heading": "Heading",
+                "content": "<p>Add your own custom content to give more information about your store, availability details...<\/p>"
+              }
+            },
+            "item-2": {
+              "type": "item",
+              "settings": {
+                "apply_overlay": true,
+                "title": "2002",
+                "subheading": "Sub-heading",
+                "heading": "Heading",
+                "content": "<p>Add your own custom content to give more information about your store, availability details...<\/p>"
+              }
+            }
+          },
+          "block_order": [
+            "item-0",
+            "item-1",
+            "item-2"
+          ],
+          "settings": {
+            "text_color": "#ffffff"
+          }
+        },
+        "blog-posts": {
+          "type": "blog-posts",
+          "blocks": {
+            "blog-0": {
+              "type": "blog",
+              "settings": {
+                "blog": "news"
+              }
+            }
+          },
+          "block_order": [
+            "blog-0"
+          ],
+          "settings": {
+            "title": "Featured article",
+            "show_category": false,
+            "button_text": "View all articles"
+          }
+        },
+        "shop-the-look": {
+          "type": "shop-the-look",
+          "blocks": {
+            "look-0": {
+              "type": "look",
+              "settings": {
+                "dot_style": "light",
+                "product_1_horizontal_position": 30,
+                "product_1_vertical_position": 40,
+                "product_2_horizontal_position": 45,
+                "product_2_vertical_position": 65,
+                "product_3_horizontal_position": 70,
+                "product_3_vertical_position": 50
+              }
+            },
+            "look-1": {
+              "type": "look",
+              "settings": {
+                "dot_style": "light",
+                "product_1_horizontal_position": 25,
+                "product_1_vertical_position": 45,
+                "product_2_horizontal_position": 55,
+                "product_2_vertical_position": 30,
+                "product_3_horizontal_position": 65,
+                "product_3_vertical_position": 60
+              }
+            }
+          },
+          "block_order": [
+            "look-0",
+            "look-1"
+          ],
+          "settings": {
+            "subheading": "Shop",
+            "title": "Our looks"
+          }
+        },
+        "collection-template": {
+          "type": "collection-template",
+          "settings": {
+            "show_collection_info": true,
+            "show_collection_image": false,
+            "show_sort_by": true,
+            "show_layout_switch": false,
+            "toolbar_position": "bottom",
+            "filter_position": "sidebar",
+            "filter_mode": "tag",
+            "show_filter_color_swatch": true,
+            "grid_items_per_page": 16,
+            "grid_mobile_items_per_row": "2",
+            "grid_desktop_items_per_row": 4
+          }
+        },
+        "recently-viewed-products": {
+          "type": "recently-viewed-products",
+          "settings": {
+            "show_section": true,
+            "title": "Recently viewed",
+            "show_product_info": true
+          }
+        },
+        "collection-footer": {
+          "type": "collection-footer",
+          "settings": {
+            "show_section": false,
+            "text_color": "#ffffff",
+            "apply_overlay": true,
+            "title": "Our story",
+            "content": "<p>Add your own custom content to explain your processes...<\/p>"
+          }
+        },
+        "product-template": {
+          "type": "product-template",
+          "settings": {
+            "show_share_buttons": true,
+            "show_vendor": true,
+            "show_color_swatch": false,
+            "show_color_carousel": false,
+            "show_quantity_selector": true,
+            "show_inventory_quantity": false,
+            "inventory_quantity_threshold": 3,
+            "image_size": "large",
+            "stack_images": true,
+            "show_thumbnails": false,
+            "enable_image_zoom": true,
+            "reviews_enabled": false
+          }
+        },
+        "product-recommendations": {
+          "type": "product-recommendations",
+          "settings": {
+            "show_product_recommendations": true,
+            "show_product_info": true
+          }
+        }
+      },
+      "content_for_index": [
+        "slideshow",
+        "featured-collections",
+        "collection-list",
+        "featured-product",
+        "timeline",
+        "blog-posts",
+        "shop-the-look"
+      ]
+    },
+    "Vogue": {
+      "heading_color": "#303030",
+      "text_color": "#303030",
+      "text_light_color": "#595959",
+      "link_color": "#000000",
+      "background": "#ffffff",
+      "light_background": "#ffffff",
+      "product_on_sale_color": "#f94c43",
+      "button_background": "#f5db8b",
+      "button_text_color": "#303030",
+      "header_background": "#ffffff",
+      "header_heading_color": "#303030",
+      "header_light_color": "#595959",
+      "footer_background": "#ffffff",
+      "footer_heading_color": "#303030",
+      "footer_text_color": "#595959",
+      "navigation_background": "#ffffff",
+      "navigation_text_color": "#303030",
+      "newsletter_popup_background": "#ffffff",
+      "newsletter_popup_text_color": "#303030",
+      "secondary_elements_background": "#fce7a8",
+      "secondary_elements_text_color": "#303030",
+      "heading_font": "din_neuzeit_grotesk_n3",
+      "heading_size": "small",
+      "uppercase_heading": true,
+      "text_font": "futura_n4",
+      "base_text_font_size": 14,
+      "show_page_transition": false,
+      "show_element_staggering": false,
+      "search_mode": "product,article",
+      "product_show_price_on_hover": true,
+      "product_show_secondary_image": false,
+      "product_info_alignment": "center",
+      "product_image_size": "natural",
+      "product_list_horizontal_spacing": "medium",
+      "product_list_vertical_spacing": "small",
+      "cart_type": "drawer",
+      "cart_enable_notes": true,
+      "cart_show_free_shipping_threshold": false,
+      "cart_free_shipping_threshold": "50",
+      "checkout_logo_position": "left",
+      "checkout_logo_size": "medium",
+      "checkout_body_background_color": "#fff",
+      "checkout_input_background_color_mode": "white",
+      "checkout_sidebar_background_color": "#fafafa",
+      "checkout_accent_color": "#a17c5e",
+      "checkout_button_color": "#454545",
+      "sections": {
+        "sidebar-menu": {
+          "type": "sidebar-menu",
+          "settings": {
+            "primary_menu": "main-menu",
+            "show_social_media": true
+          }
+        },
+        "announcement": {
+          "type": "announcement",
+          "settings": {
+            "background": "#f1e4d8",
+            "text_color": "#343434",
+            "content": "Announce something here"
+          }
+        },
+        "header": {
+          "type": "header",
+          "settings": {
+            "use_sticky_header": true,
+            "logo_max_width": 140,
+            "navigation_menu": "main-menu",
+            "navigation_style": "inline",
+            "enable_transparent_header": true,
+            "transparent_text_color": "#ffffff"
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "footer-0": {
+              "type": "text",
+              "settings": {
+                "title": "About the shop",
+                "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme settings.<\/p>",
+                "show_social_media": true
+              }
+            },
+            "footer-1": {
+              "type": "links",
+              "settings": {
+                "menu": "footer"
+              }
+            },
+            "footer-2": {
+              "type": "newsletter",
+              "settings": {
+                "title": "Newsletter",
+                "content": "<p>Subscribe to receive updates, access to exclusive deals, and more.<\/p>"
+              }
+            }
+          },
+          "block_order": [
+            "footer-0",
+            "footer-1",
+            "footer-2"
+          ],
+          "settings": {
+            "show_payment_methods": true
+          }
+        },
+        "slideshow": {
+          "type": "slideshow",
+          "blocks": {
+            "slide-0": {
+              "type": "image",
+              "settings": {
+                "apply_overlay": true,
+                "content_position": "bottomLeft",
+                "subheading": "Slide title",
+                "title": "Tell your story"
+              }
+            },
+            "slide-1": {
+              "type": "image",
+              "settings": {
+                "apply_overlay": true,
+                "content_position": "bottomLeft",
+                "subheading": "Slide title",
+                "title": "Tell your story"
+              }
+            }
+          },
+          "block_order": [
+            "slide-0",
+            "slide-1"
+          ],
+          "settings": {
+            "show_fullscreen": true,
+            "show_arrow": false,
+            "autoplay": true,
+            "cycle_speed": 5,
+            "text_color": "#ffffff",
+            "button_color": "#363636"
+          }
+        },
+        "featured-collections": {
+          "type": "featured-collections",
+          "blocks": {
+            "featured-collection-0": {
+              "type": "collection",
+              "settings": {
+                "grid_items_count": 8,
+                "button_text": "View all products"
+              }
+            }
+          },
+          "block_order": [
+            "featured-collection-0"
+          ],
+          "settings": {
+            "title": "Featured collection",
+            "layout_mode": "grid",
+            "show_product_info": true,
+            "grid_mobile_items_per_row": "2",
+            "grid_desktop_items_per_row": 4
+          }
+        },
+        "collection-list": {
+          "type": "collection-list",
+          "blocks": {
+            "collection-0": {
+              "type": "collection",
+              "settings": {
+                "image_alignment": "center center",
+                "subheading": "Sub-heading",
+                "button_text": "View products",
+                "apply_overlay": true
+              }
+            },
+            "collection-1": {
+              "type": "collection",
+              "settings": {
+                "image_alignment": "center center",
+                "subheading": "Sub-heading",
+                "button_text": "View products",
+                "apply_overlay": true
+              }
+            },
+            "collection-2": {
+              "type": "collection",
+              "settings": {
+                "image_alignment": "center center",
+                "subheading": "Sub-heading",
+                "button_text": "View products",
+                "apply_overlay": true
+              }
+            }
+          },
+          "block_order": [
+            "collection-0",
+            "collection-1",
+            "collection-2"
+          ],
+          "settings": {
+            "add_spacing": true,
+            "expand_collection": false,
+            "text_color": "#ffffff",
+            "button_color": "#363636"
+          }
+        },
+        "featured-product": {
+          "type": "featured-product",
+          "settings": {
+            "title": "Featured product",
+            "show_vendor": true,
+            "show_description": true,
+            "show_color_swatch": false,
+            "show_color_carousel": false,
+            "show_quantity_selector": true,
+            "show_inventory_quantity": false,
+            "inventory_quantity_threshold": 3
+          }
+        },
+        "timeline": {
+          "type": "timeline",
+          "blocks": {
+            "item-0": {
+              "type": "item",
+              "settings": {
+                "apply_overlay": true,
+                "title": "2000",
+                "subheading": "Sub-heading",
+                "heading": "Heading",
+                "content": "<p>Add your own custom content to give more information about your store, availability details...<\/p>"
+              }
+            },
+            "item-1": {
+              "type": "item",
+              "settings": {
+                "apply_overlay": true,
+                "title": "2001",
+                "subheading": "Sub-heading",
+                "heading": "Heading",
+                "content": "<p>Add your own custom content to give more information about your store, availability details...<\/p>"
+              }
+            },
+            "item-2": {
+              "type": "item",
+              "settings": {
+                "apply_overlay": true,
+                "title": "2002",
+                "subheading": "Sub-heading",
+                "heading": "Heading",
+                "content": "<p>Add your own custom content to give more information about your store, availability details...<\/p>"
+              }
+            }
+          },
+          "block_order": [
+            "item-0",
+            "item-1",
+            "item-2"
+          ],
+          "settings": {
+            "text_color": "#ffffff"
+          }
+        },
+        "blog-posts": {
+          "type": "blog-posts",
+          "blocks": {
+            "blog-0": {
+              "type": "blog",
+              "settings": {
+                "blog": "news"
+              }
+            }
+          },
+          "block_order": [
+            "blog-0"
+          ],
+          "settings": {
+            "title": "Featured article",
+            "show_category": false,
+            "button_text": "View all articles"
+          }
+        },
+        "shop-the-look": {
+          "type": "shop-the-look",
+          "blocks": {
+            "look-0": {
+              "type": "look",
+              "settings": {
+                "dot_style": "light",
+                "product_1_horizontal_position": 30,
+                "product_1_vertical_position": 40,
+                "product_2_horizontal_position": 45,
+                "product_2_vertical_position": 65,
+                "product_3_horizontal_position": 70,
+                "product_3_vertical_position": 50
+              }
+            },
+            "look-1": {
+              "type": "look",
+              "settings": {
+                "dot_style": "light",
+                "product_1_horizontal_position": 25,
+                "product_1_vertical_position": 45,
+                "product_2_horizontal_position": 55,
+                "product_2_vertical_position": 30,
+                "product_3_horizontal_position": 65,
+                "product_3_vertical_position": 60
+              }
+            }
+          },
+          "block_order": [
+            "look-0",
+            "look-1"
+          ],
+          "settings": {
+            "subheading": "Shop",
+            "title": "Our looks"
+          }
+        },
+        "collection-template": {
+          "type": "collection-template",
+          "settings": {
+            "show_collection_info": true,
+            "show_collection_image": false,
+            "show_sort_by": true,
+            "show_layout_switch": false,
+            "toolbar_position": "bottom",
+            "filter_position": "sidebar",
+            "filter_mode": "tag",
+            "show_filter_color_swatch": true,
+            "grid_items_per_page": 16,
+            "grid_mobile_items_per_row": "2",
+            "grid_desktop_items_per_row": 4
+          }
+        },
+        "recently-viewed-products": {
+          "type": "recently-viewed-products",
+          "settings": {
+            "show_section": true,
+            "title": "Recently viewed",
+            "show_product_info": true
+          }
+        },
+        "collection-footer": {
+          "type": "collection-footer",
+          "settings": {
+            "show_section": false,
+            "text_color": "#ffffff",
+            "apply_overlay": true,
+            "title": "Our story",
+            "content": "<p>Add your own custom content to explain your processes...<\/p>"
+          }
+        },
+        "product-template": {
+          "type": "product-template",
+          "settings": {
+            "show_share_buttons": true,
+            "show_vendor": true,
+            "show_color_swatch": false,
+            "show_color_carousel": false,
+            "show_quantity_selector": true,
+            "show_inventory_quantity": false,
+            "inventory_quantity_threshold": 3,
+            "image_size": "large",
+            "stack_images": true,
+            "show_thumbnails": false,
+            "enable_image_zoom": true,
+            "reviews_enabled": false
+          }
+        },
+        "product-recommendations": {
+          "type": "product-recommendations",
+          "settings": {
+            "show_product_recommendations": true,
+            "show_product_info": true
+          }
+        }
+      },
+      "content_for_index": [
+        "slideshow",
+        "featured-collections",
+        "collection-list",
+        "featured-product",
+        "timeline",
+        "blog-posts",
+        "shop-the-look"
+      ]
+    }
+  }
+}

@@ -1,0 +1,47 @@
+<div class="Container" style="max-width:1200px;">
+<div class="About-Featured Section Section--spacingNormal">
+  <h2 class="SectionHeader__Heading Heading u-h1">{{section.settings.title}}</h2>
+  <div class="About-Featured-text">
+    {{section.settings.text}}
+  </div>
+  <div class="Grid ArticleListWrapper">
+    
+      {%- for block in section.blocks -%}
+      <div class="Grid__Cell 1/2--phone 1/2--tablet 1/4--lap-and-up">
+          <img src="{{block.settings.Image | img_url:''}}">
+      </div>
+      {% endfor %}
+  </div>
+
+</div>
+</div>
+{% schema %}
+{
+  "name": "About Featured",
+  "settings": [
+    {
+		"type":"text",
+		"id":"title",
+		"label":"Heading"
+	},
+	{
+		"type":"textarea",
+		"id":"text",
+		"label":"text"
+	}
+  ],
+  "blocks": [
+    {
+      "type": "image",
+      "name": "Image",
+      "settings": [
+        {
+          "type":"image_picker",
+          "id":"Image",
+          "label":"Image"
+		}
+      ]
+    }
+  ]
+}
+{% endschema %}
