@@ -1,3 +1,24 @@
+<script src="https://sdk.justsell.live/latest.js"></script> 
+ 
+<div id="cs-live-player"></div> 
+ 
+<script> 
+new CSLivePlayer( 
+    "cs-live-player", // string ID of the DOM element being mounted to or an actual HTMLElement (ie: document.getElementById('id-goes-here'
+    { 
+        shopName: 'myShop', // required, provided by CS 
+        // height: 750px (default) 
+        // width: 100% (default) 
+    }).onAddToCart((cartItem) => { 
+        // optional 
+        // e.g. window.open(cartItem.productPath); 
+    }).onConnectedToStream((streamId) => { 
+        // optional 
+    }).onLiveSaleEnded(() => { 
+        // optional 
+    }) 
+</script>
+
 {%- comment -%}
 In Prestige, the header is quite complex due to the very high number of possible combinations. If you have to edit it, please
 make sure to duplicate the theme first so you can revert your changes in case any issue is introduced.
