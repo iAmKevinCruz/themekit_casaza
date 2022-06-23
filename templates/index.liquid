@@ -1,1 +1,12 @@
 {{ content_for_index }}
+<script>
+    window.onload = function() {
+        setTimeout(loadAfterTime, 0)
+    }; 
+
+    function loadAfterTime(){
+        if(document.getElementById("cs-live--player-frame").style.display == "block"){
+            document.getElementById("slideshow-image").style.display = "none";
+        }
+    }
+</script>

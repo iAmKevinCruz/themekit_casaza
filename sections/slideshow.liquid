@@ -11,8 +11,30 @@
 }
 {%- endcapture -%}
 
+
+<script src="https://sdk.justsell.live/latest.js"></script> 
+ 
+<div id="cs-live-player"></div> 
+ 
+<script> 
+new CSLivePlayer( 
+    "cs-live-player", // string ID of the DOM element being mounted to or an actual HTMLElement (ie: document.getElementById('id-goes-here'
+    { 
+        shopName: 'casaza', // required, provided by CS 
+        // height: 750px (default) 
+        // width: 100% (default) 
+    }).onAddToCart((cartItem) => { 
+        // optional 
+        // e.g. window.open(cartItem.productPath); 
+    }).onConnectedToStream((streamId) => { 
+        // optional 
+    }).onLiveSaleEnded(() => { 
+        // optional 
+    }) 
+</script>
+
 <section id="section-{{ section.id }}" data-section-id="{{ section.id }}" data-section-type="slideshow">
-  <div class="Slideshow {% if section.settings.show_fullscreen %}Slideshow--fullscreen{% endif %}">
+  <div id="slideshow-image" class="Slideshow {% if section.settings.show_fullscreen %}Slideshow--fullscreen{% endif %}" style="display:block">
     <div class="Slideshow__Carousel {% if section.settings.show_arrow %}Slideshow__Carousel--withScrollButton{% endif %} Carousel Carousel--fadeIn {% if section.settings.show_fullscreen %}Carousel--fixed{% endif %} Carousel--insideDots"
          data-flickity-config='{{ flickity_options }}'>
       {%- for block in section.blocks -%}
