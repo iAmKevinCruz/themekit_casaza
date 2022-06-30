@@ -23,13 +23,16 @@ new CSLivePlayer(
         shopName: 'casaza', // required, provided by CS 
         // height: 750px (default) 
         // width: 100% (default) 
-    }).onAddToCart((cartItem) => { 
+    }).onAddToCart((cartItem) => {
+        window.open(cartItem.productPath);
+        //window.open("https://casaza-store.myshopify.com/cart/add/40776260124857", "_self");
         // optional 
         // e.g. window.open(cartItem.productPath); 
     }).onConnectedToStream((streamId) => { 
-        // optional 
+        // optional
     }).onLiveSaleEnded(() => { 
-        // optional 
+        // optional
+        //window.location.reload();
     }) 
 </script>
 
